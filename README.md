@@ -28,6 +28,7 @@ Use Python3.10 or newer. No API key is required:
 ```sh
 python3 -m unittest discover -s research_track_2_3/staged_rule -p test_rule.py
 python3 scripts/verify_release.py
+python3 scripts/verify_paper_results.py
 ```
 
 `research_track_2_3/all100/calculate.py` consolidates preserved archive measures and computes fresh repair and communication/action measures with the organizer scorer. Full regeneration requires the external organizer checkout and original raw logs; this repository does not claim that every raw-data-dependent script runs from the compact release alone. Provenance contains original absolute paths, which must be rebased on another machine.

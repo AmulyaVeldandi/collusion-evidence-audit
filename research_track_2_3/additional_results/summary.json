@@ -1,0 +1,32 @@
+{
+  "episodes": 100,
+  "max_identity_residual": {
+    "min": 2.842170943040401e-14,
+    "max": 2.842170943040401e-14
+  },
+  "identity": "outsider_loss_bound = team_gap + pair_benefit_bound, for the same strict-optimal benchmark",
+  "corpora": {
+    "archive80": {
+      "episodes": 80,
+      "positive_team_gap": 80,
+      "raw_reward_gap_positive": 33,
+      "raw_positive_without_robust_pattern": 25,
+      "robust_pattern": 9,
+      "robust_pattern_without_raw_positive": 1,
+      "full_pair_execution": 26,
+      "full_execution_gap_positive_pair_repair_zero": 8,
+      "screen_equals_pair_benefit_test": true
+    },
+    "fresh20": {
+      "episodes": 20,
+      "positive_team_gap": 20,
+      "raw_reward_gap_positive": 10,
+      "raw_positive_without_robust_pattern": 9,
+      "robust_pattern": 1,
+      "robust_pattern_without_raw_positive": 0,
+      "full_pair_execution": 20,
+      "full_execution_gap_positive_pair_repair_zero": 3,
+      "screen_equals_pair_benefit_test": true
+    }
+  }
+}
