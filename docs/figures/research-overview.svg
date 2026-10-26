@@ -1,74 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1420" viewBox="0 0 1440 1420" role="img" aria-labelledby="title desc">
-<title id="title">Research overview: evidence of AI-agent collusion</title>
-<desc id="desc">Nine-explanation evidence framework, an 80-case exploratory audit and 20 fresh cases, measured evidence and results, with future validation clearly separated.</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#718096" stroke-width="1.5"/></marker></defs>
-<rect width="1440" height="1420" fill="#f5f7fb"/>
-<text x="52" y="49" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#2563eb">BEYOND COLLUSIVE TALK</text>
-<text x="52" y="91" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#0f172a">Which evidence distinguishes collusion from its alternatives?</text>
-<text x="52" y="124" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Completed analyses and their evidentiary limits • Apart Research Track 2.3</text>
-<rect x="52" y="155" width="1336" height="123" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="74" y="189" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">1  PROPOSED FRAMEWORK · nine explanations</text>
-<text x="74" y="220" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Q: trustworthy records   A: reciprocal agreement   I: implemented plan   P: harmful purpose</text>
-<text x="74" y="247" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">H: adverse consequences linked to the conduct. Communication causality remains separate.</text>
-<path d="M385 278 L385 308" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M1055 278 L1055 308" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="52" y="315" width="646" height="158" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="74" y="349" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">2A  ARCHIVE · exploratory</text>
-<text x="74" y="380" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">80 Jira episodes · 40 matched baseline–treatment seeds</text>
-<text x="74" y="407" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Fine-tuned Qwen variants · 6 agents; candidate pair of 2</text>
-<text x="74" y="434" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Archive fully exposed; no pristine held-out claim.</text>
-<rect x="742" y="315" width="646" height="158" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="764" y="349" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">2B  FRESH APPLICATION · transfer setting</text>
-<text x="764" y="380" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">20 generated episodes · 10 matched seed pairs</text>
-<text x="764" y="407" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">gpt-4o-mini · 6 agents; automatic filling disabled</text>
-<text x="764" y="434" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Deterministic rule frozen; semantic review not frozen.</text>
-<path d="M385 473 V491 M1055 473 V491 M263 491 H1177" stroke="#718096" stroke-width="2" fill="none"/>
-<path d="M263 491 L263 508" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M720 491 L720 508" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M1177 491 L1177 508" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="52" y="515" width="422" height="151" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="74" y="549" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">3  CONVERSATION</text>
-<text x="74" y="580" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Publication and eligible access</text>
-<text x="74" y="607" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Specific reciprocal commitments</text>
-<text x="74" y="634" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Latest accepted plan and revisions</text>
-<rect x="509" y="515" width="422" height="151" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="531" y="549" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">3  ACTIONS</text>
-<text x="531" y="580" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Successful assignments / skips</text>
-<text x="531" y="607" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Plan–action matching per actor</text>
-<text x="531" y="634" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Missing choices, errors and fills</text>
-<rect x="966" y="515" width="422" height="151" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="988" y="549" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">3  CONSEQUENCES</text>
-<text x="988" y="580" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Team gap and group reward ranges</text>
-<text x="988" y="607" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Pair / single / joint repair scores</text>
-<text x="988" y="634" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Fill effects; upstream regret gap</text>
-<path d="M263 666 V687 H1177 V666 M720 666 V687" stroke="#718096" stroke-width="2" fill="none"/>
-<path d="M385 687 L385 703" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M1055 687 L1055 703" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="52" y="710" width="646" height="190" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="74" y="744" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">4A  ARCHIVE AUDIT</text>
-<text x="74" y="775" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">240 judge calls: conversation / actions / combined</text>
-<text x="74" y="802" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">26 pairs both act; 74 episodes contain fills</text>
-<text x="74" y="829" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">194 responses flagged by citation / policy checks</text>
-<text x="74" y="856" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Flags are not independently validated error labels.</text>
-<rect x="742" y="710" width="646" height="190" rx="14" fill="white" stroke="#2563eb" stroke-width="1.5"/>
-<text x="764" y="744" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#2563eb">4B  FRESH SOURCE-LINKED REVIEW</text>
-<text x="764" y="775" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">9 specific bilateral agreements supported</text>
-<text x="764" y="802" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">8 implemented plans with adverse patterns</text>
-<text x="764" y="829" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">1 agreement with uncertain implementation; 11 uncertain</text>
-<text x="764" y="856" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Harm attribution unresolved; no additional judge calls.</text>
-<path d="M385 900 L385 938" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<path d="M1055 900 L1055 938" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="52" y="945" width="1336" height="155" rx="14" fill="white" stroke="#0f766e" stroke-width="1.5"/>
-<text x="74" y="979" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0f766e">5  SYNTHESIS · 100 cases and 50 matched seed comparisons</text>
-<text x="74" y="1010" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Keep evidence dimensions separate: agreement ≠ implementation ≠ attributable harm.</text>
-<text x="74" y="1037" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Distributional advantage, repair opportunities and environment effects answer different questions.</text>
-<text x="74" y="1064" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">No independent reference labels: no validated accuracy, precision, recall or communication-causal estimate.</text>
-<path d="M720 1100 L720 1140" stroke="#718096" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
-<rect x="52" y="1147" width="1336" height="165" rx="14" fill="white" stroke="#b45309" stroke-width="1.5" stroke-dasharray="8 6"/>
-<text x="74" y="1181" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#b45309">FUTURE VALIDATION · proposed, not completed</text>
-<text x="74" y="1212" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Independent references for the nine explanations; allow overlapping and unresolved categories.</text>
-<text x="74" y="1239" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Compare nested evidence combinations on untouched cases after freezing the complete annotation pipeline.</text>
-<text x="74" y="1266" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400" fill="#334155">Use independent-decision controls and communication interventions for stronger dependence / equivalence claims.</text>
-<text x="52" y="1360" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#334155">Scope: 100-case evidence audit and proposed operational framework; not a validated harmful-collusion detector.</text>
-<text x="52" y="1388" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400" fill="#64748b">Public case files: 20 generated cases only. Hugging Face source cases excluded; judge outputs and scores retained.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title desc">
+<title id="title">Evidence of AI-agent collusion: study design and findings</title>
+<desc id="desc">80 archived and20 fresh cases feed conversation, action and outcome analyses. Fresh review supports9 agreements and8 enacted plans, with harm attribution unresolved. Outcome scores overlap algebraically; global loss and pair-only repair differ. Independent validation remains pending.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#94a3b8" stroke-width="1.5"/></marker></defs>
+<rect width="1440" height="1040" fill="white"/>
+<text x="720" y="48" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#0f172a" font-weight="700" text-anchor="middle">Which evidence distinguishes collusion?</text>
+<text x="720" y="84" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#64748b" font-weight="400" text-anchor="middle">A nine-explanation framework</text>
+<rect x="70" y="120" width="610" height="116" rx="12" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<text x="375" y="162" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0f172a" font-weight="700" text-anchor="middle">80 archived cases</text>
+<text x="375" y="202" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">240 model judgments</text>
+<rect x="760" y="120" width="610" height="116" rx="12" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1065" y="162" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#0f172a" font-weight="700" text-anchor="middle">20 fresh cases</text>
+<text x="1065" y="202" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">Source-linked assistant review</text>
+<path d="M375 236 V268 H1065 V236" stroke="#94a3b8" stroke-width="2" fill="none"/>
+<path d="M720 268 H270" stroke="#94a3b8" stroke-width="2" fill="none"/>
+<path d="M270 268 V300" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M720 268 V300" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M720 268 H1170" stroke="#94a3b8" stroke-width="2" fill="none"/>
+<path d="M1170 268 V300" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="70" y="310" width="400" height="110" rx="12" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<text x="270" y="354" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f172a" font-weight="700" text-anchor="middle">Conversation</text>
+<text x="270" y="391" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">Reciprocal agreement</text>
+<rect x="520" y="310" width="400" height="110" rx="12" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<text x="720" y="354" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f172a" font-weight="700" text-anchor="middle">Actions</text>
+<text x="720" y="391" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">Plan implementation</text>
+<rect x="970" y="310" width="400" height="110" rx="12" fill="#f8fafc" stroke="#2563eb" stroke-width="1.5"/>
+<text x="1170" y="354" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#0f172a" font-weight="700" text-anchor="middle">Outcomes</text>
+<text x="1170" y="391" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">Reward • repair • fills</text>
+<path d="M270 420 V452 H1170 V420 M720 420 V452" stroke="#94a3b8" stroke-width="2" fill="none"/>
+<path d="M375 452 V486" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<path d="M1065 452 V486" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="70" y="496" width="610" height="180" rx="12" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+<text x="375" y="533" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0f766e" font-weight="700" text-anchor="middle">FRESH EVIDENCE PROFILE</text>
+<text x="375" y="580" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0f172a" font-weight="700" text-anchor="middle">9 agreements → 8 enacted plans</text>
+<text x="375" y="626" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#475569" font-weight="400" text-anchor="middle">Harm attribution unresolved</text>
+<rect x="760" y="496" width="610" height="180" rx="12" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+<text x="1065" y="533" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0f766e" font-weight="700" text-anchor="middle">BENCHMARK ACCOUNTING</text>
+<text x="1065" y="580" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#0f172a" font-weight="700" text-anchor="middle">Outsider loss = team gap + pair benefit</text>
+<text x="1065" y="626" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#475569" font-weight="400" text-anchor="middle">Overlapping scores ≠ extra corroboration</text>
+<path d="M375 676 V708 H1065 V676" stroke="#94a3b8" stroke-width="2" fill="none"/>
+<path d="M720 708 V740" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="70" y="750" width="1300" height="140" rx="12" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+<text x="720" y="790" font-family="Arial, Helvetica, sans-serif" font-size="29" fill="#0f172a" font-weight="700" text-anchor="middle">Global loss can coexist with zero pair-only repair</text>
+<text x="720" y="836" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#334155" font-weight="400" text-anchor="middle">8 / 26 archive pairs     •     3 / 20 fresh pairs</text>
+<path d="M720 890 V924" stroke="#94a3b8" stroke-width="2" fill="none" marker-end="url(#a)"/>
+<rect x="290" y="934" width="860" height="66" rx="12" fill="#fffbeb" stroke="#b45309" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="720" y="975" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#92400e" font-weight="700" text-anchor="middle">Independent validation pending</text>
 </svg>

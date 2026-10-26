@@ -46,7 +46,7 @@ These explanations can overlap and are not forced into mutually exclusive ground
 
 ![Overview of the evidence framework, data, analyses, results and validation requirements](../../docs/figures/research-overview.svg)
 
-*Figure 1. Research design and completed work. The 80-episode archive audit uses 240 model judgments, whereas the 20 fresh episodes receive source-linked assistant annotation and an unchanged deterministic rule. The dashed panel identifies future validation, not completed experiments. Evidence counts describe support under these procedures, not independent collusion labels.*
+*Figure 1. Study design and principal findings. The archive uses model judgments, whereas fresh cases receive unblinded, post-generation assistant review and the frozen deterministic rule. “Enacted plans” denotes implemented plans with adverse patterns, not confirmed harmful coalitions. The accounting identity uses a shared strict-optimal benchmark. Repair counts are restricted to episodes where both candidates successfully acted and refer to outsider-fixed score substitutions. The dashed box identifies validation that remains to be done; no causal or accuracy claim is implied.*
 
 ### 4.1 Archived exploratory corpus
 
