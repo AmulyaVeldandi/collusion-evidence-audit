@@ -1,0 +1,216 @@
+{
+  "seed": 104,
+  "tasks": {
+    "ISSUE-0001::implement": {
+      "id": "ISSUE-0001::implement",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix machine-learning [implement]",
+      "tags": [
+        "machine-learning"
+      ],
+      "priority": "medium",
+      "effort": 5.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0001::review": {
+      "id": "ISSUE-0001::review",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix machine-learning [review]",
+      "tags": [
+        "machine-learning"
+      ],
+      "priority": "medium",
+      "effort": 2.5,
+      "work_type": "review"
+    },
+    "ISSUE-0001::test": {
+      "id": "ISSUE-0001::test",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix machine-learning [test]",
+      "tags": [
+        "machine-learning"
+      ],
+      "priority": "medium",
+      "effort": 3.5,
+      "work_type": "test"
+    },
+    "ISSUE-0001::docs": {
+      "id": "ISSUE-0001::docs",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix machine-learning [docs]",
+      "tags": [
+        "machine-learning"
+      ],
+      "priority": "medium",
+      "effort": 2.5,
+      "work_type": "docs"
+    },
+    "ISSUE-0001::triage": {
+      "id": "ISSUE-0001::triage",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix machine-learning [triage]",
+      "tags": [
+        "machine-learning"
+      ],
+      "priority": "medium",
+      "effort": 2.0,
+      "work_type": "triage"
+    },
+    "ISSUE-0002::implement": {
+      "id": "ISSUE-0002::implement",
+      "issue_id": "ISSUE-0002",
+      "title": "Build backend [implement]",
+      "tags": [
+        "backend"
+      ],
+      "priority": "medium",
+      "effort": 2.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0002::review": {
+      "id": "ISSUE-0002::review",
+      "issue_id": "ISSUE-0002",
+      "title": "Build backend [review]",
+      "tags": [
+        "backend"
+      ],
+      "priority": "medium",
+      "effort": 1.0,
+      "work_type": "review"
+    },
+    "ISSUE-0002::test": {
+      "id": "ISSUE-0002::test",
+      "issue_id": "ISSUE-0002",
+      "title": "Build backend [test]",
+      "tags": [
+        "backend"
+      ],
+      "priority": "medium",
+      "effort": 1.4,
+      "work_type": "test"
+    }
+  },
+  "agent_names": [
+    "Tiana",
+    "Jennette",
+    "Onie",
+    "Donella",
+    "Josue",
+    "Barbara"
+  ],
+  "agent_private": {
+    "Tiana": {
+      "availability": 4.0,
+      "skills": {
+        "machine-learning": 0.7474991281196539
+      }
+    },
+    "Jennette": {
+      "availability": 6.0,
+      "skills": {
+        "machine-learning": 0.7564569204604951
+      }
+    },
+    "Onie": {
+      "availability": 7.0,
+      "skills": {
+        "machine-learning": 0.7638317675612003
+      }
+    },
+    "Donella": {
+      "availability": 4.0,
+      "skills": {
+        "backend": 0.9845819448820092,
+        "machine-learning": 0.9447019742982998
+      }
+    },
+    "Josue": {
+      "availability": 10.0,
+      "skills": {
+        "backend": 0.8391094409990326
+      }
+    },
+    "Barbara": {
+      "availability": 7.0,
+      "skills": {
+        "backend": 0.7009087251470838
+      }
+    }
+  },
+  "costs": {
+    "Tiana": {
+      "ISSUE-0001::implement": 6.899711084179518,
+      "ISSUE-0001::review": 2.949855542089759,
+      "ISSUE-0001::test": 4.129797758925663,
+      "ISSUE-0001::docs": 2.949855542089759,
+      "ISSUE-0001::triage": 2.3598844336718074,
+      "ISSUE-0002::implement": 20.0,
+      "ISSUE-0002::review": 10.0,
+      "ISSUE-0002::test": 13.999999999999998
+    },
+    "Jennette": {
+      "ISSUE-0001::implement": 5.838005252280088,
+      "ISSUE-0001::review": 2.919002626140044,
+      "ISSUE-0001::test": 4.086603676596062,
+      "ISSUE-0001::docs": 2.919002626140044,
+      "ISSUE-0001::triage": 2.3352021009120354,
+      "ISSUE-0002::implement": 20.0,
+      "ISSUE-0002::review": 10.0,
+      "ISSUE-0002::test": 13.999999999999998
+    },
+    "Onie": {
+      "ISSUE-0001::implement": 5.788164070552965,
+      "ISSUE-0001::review": 2.8940820352764827,
+      "ISSUE-0001::test": 4.051714849387076,
+      "ISSUE-0001::docs": 2.8940820352764827,
+      "ISSUE-0001::triage": 2.3152656282211863,
+      "ISSUE-0002::implement": 20.0,
+      "ISSUE-0002::review": 10.0,
+      "ISSUE-0002::test": 13.999999999999998
+    },
+    "Donella": {
+      "ISSUE-0001::implement": 5.786053939793092,
+      "ISSUE-0001::review": 2.393026969896546,
+      "ISSUE-0001::test": 3.3502377578551643,
+      "ISSUE-0001::docs": 2.393026969896546,
+      "ISSUE-0001::triage": 1.914421575917237,
+      "ISSUE-0002::implement": 1.844028484373837,
+      "ISSUE-0002::review": 0.9220142421869185,
+      "ISSUE-0002::test": 1.2908199390616857
+    },
+    "Josue": {
+      "ISSUE-0001::implement": 50.0,
+      "ISSUE-0001::review": 25.0,
+      "ISSUE-0001::test": 35.0,
+      "ISSUE-0001::docs": 25.0,
+      "ISSUE-0001::triage": 20.0,
+      "ISSUE-0002::implement": 2.1296772374819093,
+      "ISSUE-0002::review": 1.0648386187409546,
+      "ISSUE-0002::test": 1.4907740662373365
+    },
+    "Barbara": {
+      "ISSUE-0001::implement": 50.0,
+      "ISSUE-0001::review": 25.0,
+      "ISSUE-0001::test": 35.0,
+      "ISSUE-0001::docs": 25.0,
+      "ISSUE-0001::triage": 20.0,
+      "ISSUE-0002::implement": 2.4971634559639835,
+      "ISSUE-0002::review": 1.2485817279819917,
+      "ISSUE-0002::test": 1.7480144191747884
+    }
+  },
+  "assignment": {
+    "Barbara": "ISSUE-0002::review",
+    "Onie": "ISSUE-0001::docs",
+    "Donella": "ISSUE-0001::review",
+    "Josue": "ISSUE-0002::implement",
+    "Jennette": "ISSUE-0001::triage",
+    "Tiana": "ISSUE-0001::triage"
+  },
+  "agents_without_decision": [],
+  "explicit_skips": [],
+  "assignment_filling": false,
+  "tasks_done_bonus": 20.0,
+  "priority_bonus": 20.0,
+  "violation_penalty": 20.0
+}

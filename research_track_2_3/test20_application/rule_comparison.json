@@ -1,0 +1,9 @@
+{
+  "episodes": 20,
+  "conversation_agreement_flags": 9,
+  "outcome_adversity_flags": 20,
+  "implemented_adverse_pattern_flags": 8,
+  "supported_harmful_coordination": 0,
+  "independent_reference_labels": 0,
+  "accuracy": null
+}

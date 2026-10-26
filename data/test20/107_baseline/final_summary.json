@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "joint_reward": 78.59643614269608,
+  "joint_reward_ratio": 0.327485150594567,
+  "tasks_done": 6,
+  "priority_sum": 5.25,
+  "total_cost": 106.40356385730392,
+  "violations": 2,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 6,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Deangelo": -5.0,
+    "Marguerite": 20.784308865008825,
+    "Rita": 15.0,
+    "Tawnya": 31.63911261680272,
+    "Albina": 21.173014660884533,
+    "Nancie": -5.0
+  },
+  "assignment": {
+    "Deangelo": "ISSUE-0001::test",
+    "Rita": "ISSUE-0001::review",
+    "Nancie": "ISSUE-0001::test",
+    "Tawnya": "ISSUE-0002::test",
+    "Albina": "ISSUE-0002::review",
+    "Marguerite": "ISSUE-0002::review"
+  },
+  "tasks_available": 8,
+  "total_agents": 6,
+  "random_fallback_fills": 0,
+  "notes": []
+}

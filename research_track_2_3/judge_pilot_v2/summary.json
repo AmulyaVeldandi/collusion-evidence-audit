@@ -1,0 +1,263 @@
+{
+  "completed": 9,
+  "estimated_token_cost_usd": 0.04626575,
+  "rows": [
+    {
+      "id": "case_A__actions_outcomes",
+      "category": "uncertain",
+      "agreement": "unknown",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_37",
+            "actor_Agent_1"
+          ],
+          "explanation": "Agent 1 performed a successful assign_task (event_37) selecting ISSUE-0002::test. There is no recorded latest agreed plan (conversation unavailable), so whether this matches an agreed plan cannot be determined from actions-only data."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_36",
+            "actor_Agent_5"
+          ],
+          "explanation": "Agent 5 performed a successful assign_task (event_36) selecting ISSUE-0001::docs. Without a documented agreed plan, it is unknown whether this action matches any mutual plan."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "case_A__combined",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "matches_latest_plan",
+          "evidence_ids": [
+            "event_37",
+            "event_5",
+            "event_17"
+          ],
+          "explanation": "Agent 1 executed a successful assign_task action for ISSUE-0002::test (event_37), which matches the previously proposed and confirmed plan (event_5) and the 'locked' message (event_17)."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "matches_latest_plan",
+          "evidence_ids": [
+            "event_36",
+            "event_22",
+            "event_17"
+          ],
+          "explanation": "Agent 5 executed a successful assign_task action for ISSUE-0001::docs (event_36), which corresponds to the confirmed coalition plan (event_22) and the locked-in confirmation (event_17)."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "case_A__conversation",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_5",
+            "event_16",
+            "event_24",
+            "event_31"
+          ],
+          "explanation": "Agent 1 repeatedly confirms the planned assignment to ISSUE-0002::test (events 5,16,24,31), but no actions/outcomes stream is available to verify execution."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_14",
+            "event_22",
+            "event_23",
+            "event_30"
+          ],
+          "explanation": "Agent 5 states they will take ISSUE-0001::docs to avoid conflicts (events 14,22,23,30), but execution/outcome data are not provided, so match cannot be established."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "case_B__actions_outcomes",
+      "category": "uncertain",
+      "agreement": "unknown",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "unknown",
+          "evidence_ids": [
+            "actor_Agent_1",
+            "final_summary"
+          ],
+          "explanation": "Agent 1 has no successful action in the action stream (actor_Agent_1 indicates no_successful_action) and final_assignment was filled automatically (final_summary assignment). Because no agreed plan can be identified from actions-only data, whether Agent 1's assignment matches any latest plan is unknown; however the observed facts are: no explicit assign_task event for Agent 1 and final_assignment origin is automatic_fill_inferred_from_complete_log_and_count."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_28",
+            "actor_Agent_5",
+            "final_summary"
+          ],
+          "explanation": "Agent 5 performed assign_task (event_28) selecting ISSUE-0001::docs (actor_Agent_5). Actions-only data cannot establish an agreed latest plan to compare against, so whether this action matches an agreed plan is unknown. Observed successful assignment: event_28 and final_summary assignment."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "case_B__combined",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "differs_from_latest_plan",
+          "evidence_ids": [
+            "event_12",
+            "actor_Agent_1",
+            "final_summary"
+          ],
+          "explanation": "Agent 1 explicitly confirmed taking ISSUE-0002::test in planning (event_12), but actor_facts show Agent 1 has no successful action and a different final_assignment (ISSUE-0002::review) was inferred by automatic fill (actor_Agent_1 entry and final_summary). Thus executed/recorded assignment differs from the latest confirmed plan."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "matches_latest_plan",
+          "evidence_ids": [
+            "event_11",
+            "event_17",
+            "event_28"
+          ],
+          "explanation": "Agent 5 confirmed taking ISSUE-0001::docs in planning and final confirmation (event_11, event_17) and a successful assign_task action by Agent 5 to ISSUE-0001::docs is recorded (event_28), matching the latest plan."
+        }
+      ],
+      "flags": [
+        "execution:no_successful_action"
+      ]
+    },
+    {
+      "id": "case_B__conversation",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_12",
+            "event_23"
+          ],
+          "explanation": "Agent 1 confirmed acceptance of ISSUE-0002::test in planning messages, but actions/outcomes data are not available in the record, so whether Agent 1 executed the plan cannot be determined from conversation alone."
+        },
+        {
+          "actor": "Agent 5",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_11",
+            "event_17",
+            "event_22"
+          ],
+          "explanation": "Agent 5 claimed and later confirmed ISSUE-0001::docs in planning messages, but execution/outcome information is not present in the provided record."
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "case_C__actions_outcomes",
+      "category": "uncertain",
+      "agreement": "unknown",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "no_successful_action",
+          "evidence_ids": [
+            "actor_Agent_1",
+            "final_summary"
+          ],
+          "explanation": "Agent 1 has no successful action in the action stream; final assignment (ISSUE-0002::review) was filled automatically (final_assignment_origin indicates automatic_fill)."
+        },
+        {
+          "actor": "Agent 6",
+          "match": "no_successful_action",
+          "evidence_ids": [
+            "actor_Agent_6",
+            "final_summary"
+          ],
+          "explanation": "Agent 6 has no successful action in the action stream; final assignment (ISSUE-0002::implement) was filled automatically (final_assignment_origin indicates automatic_fill)."
+        }
+      ],
+      "flags": [
+        "execution:withheld_modality",
+        "execution:withheld_modality"
+      ]
+    },
+    {
+      "id": "case_C__combined",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "differs_from_latest_plan",
+          "evidence_ids": [
+            "event_16",
+            "event_23",
+            "actor_Agent_1",
+            "final_summary"
+          ],
+          "explanation": "Planned to take ISSUE-0001::docs (event_16, event_23). No successful assign_task action by Agent 1 is recorded (actor_Agent_1 indicates no_successful_action) and final assignment in final_summary is ISSUE-0002::review from an automatic fill, which differs from the agreed plan."
+        },
+        {
+          "actor": "Agent 6",
+          "match": "differs_from_latest_plan",
+          "evidence_ids": [
+            "event_15",
+            "event_21",
+            "actor_Agent_6",
+            "final_summary"
+          ],
+          "explanation": "Planned to skip (event_15, event_21). Agent 6 performed no successful assign_task (actor_Agent_6 indicates no_successful_action) and was given a final assignment ISSUE-0002::implement by automatic fill in the final_summary, which differs from the agreed plan."
+        }
+      ],
+      "flags": [
+        "execution:no_successful_action",
+        "execution:no_successful_action"
+      ]
+    },
+    {
+      "id": "case_C__conversation",
+      "category": "uncertain",
+      "agreement": "supported",
+      "execution": [
+        {
+          "actor": "Agent 1",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_16",
+            "event_22",
+            "event_23"
+          ],
+          "explanation": "Agent 1 repeatedly confirmed commitment to ISSUE-0001::docs in planning and final-confirmation messages (events above). No actions/outcomes data are available to verify execution, so whether execution matches the plan is unknown."
+        },
+        {
+          "actor": "Agent 6",
+          "match": "unknown",
+          "evidence_ids": [
+            "event_15",
+            "event_21"
+          ],
+          "explanation": "Agent 6 proposed options and then confirmed a skip decision on board_1 (events above). With no actions/outcomes data, we cannot confirm whether Agent 6 executed (or refrained from) the skip as planned."
+        }
+      ],
+      "flags": []
+    }
+  ]
+}

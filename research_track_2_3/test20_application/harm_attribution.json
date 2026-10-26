@@ -1,0 +1,207 @@
+[
+  {
+    "run": "102_treatment",
+    "team_gap": 70.70740760215224,
+    "pair_benefit_min": -10.312523204313877,
+    "pair_benefit_max": -10.312523204313877,
+    "outsider_loss_min": 60.39488439783837,
+    "outsider_loss_max": 60.39488439783837,
+    "pair_only_repair": 19.426994787074875,
+    "joint_repair_interaction": 0.6250464086277248,
+    "duplicates": {
+      "ISSUE-0001::test": [
+        "Hattie",
+        "Domonique"
+      ]
+    },
+    "pair_actions": {
+      "Romana": "ISSUE-0001::triage",
+      "Domonique": "ISSUE-0001::test"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "103_treatment",
+    "team_gap": 22.80673739293063,
+    "pair_benefit_min": 0.0,
+    "pair_benefit_max": 0.0,
+    "outsider_loss_min": 22.80673739293063,
+    "outsider_loss_max": 22.80673739293063,
+    "pair_only_repair": 0.0,
+    "joint_repair_interaction": 0.0,
+    "duplicates": {
+      "ISSUE-0001::test": [
+        "Sudie",
+        "Oralia"
+      ]
+    },
+    "pair_actions": {
+      "Hattie": "ISSUE-0002::review",
+      "Winnifred": "ISSUE-0001::triage"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "104_treatment",
+    "team_gap": 4.993174034463635,
+    "pair_benefit_min": -3.5089737345579977,
+    "pair_benefit_max": -3.5089737345579977,
+    "outsider_loss_min": 1.4842002999056376,
+    "outsider_loss_max": 1.4842002999056376,
+    "pair_only_repair": 3.5089737345579977,
+    "joint_repair_interaction": -0.5838005252280141,
+    "duplicates": {},
+    "pair_actions": {
+      "Tiana": "ISSUE-0001::review",
+      "Jennette": "ISSUE-0001::implement"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "105_treatment",
+    "team_gap": 24.01907249661481,
+    "pair_benefit_min": -3.1835637816364866,
+    "pair_benefit_max": -3.1835637816364866,
+    "outsider_loss_min": 20.83550871497833,
+    "outsider_loss_max": 20.83550871497833,
+    "pair_only_repair": 4.7956946899687125,
+    "joint_repair_interaction": 0.0,
+    "duplicates": {},
+    "pair_actions": {
+      "Alysa": "ISSUE-0002::review",
+      "Shantel": "ISSUE-0002::implement"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "106_treatment",
+    "team_gap": 19.30511538449619,
+    "pair_benefit_min": 1.1270777156485394,
+    "pair_benefit_max": 1.1270777156485394,
+    "outsider_loss_min": 20.43219310014473,
+    "outsider_loss_max": 20.43219310014473,
+    "pair_only_repair": 0.0,
+    "joint_repair_interaction": 0.0,
+    "duplicates": {
+      "ISSUE-0002::test": [
+        "Reginald",
+        "Laurene"
+      ]
+    },
+    "pair_actions": {
+      "Hollis": "ISSUE-0002::review",
+      "Alfred": "ISSUE-0001::review"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "107_treatment",
+    "team_gap": 84.21227338247328,
+    "pair_benefit_min": -31.726720505599005,
+    "pair_benefit_max": -26.726720505599005,
+    "outsider_loss_min": 52.48555287687428,
+    "outsider_loss_max": 57.48555287687428,
+    "pair_only_repair": 39.42191884758236,
+    "joint_repair_interaction": -1.4028340690290264,
+    "duplicates": {},
+    "pair_actions": {
+      "Deangelo": "ISSUE-0001::review",
+      "Marguerite": "ISSUE-0001::test"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "109_treatment",
+    "team_gap": 19.172149158317325,
+    "pair_benefit_min": -10.156743752912114,
+    "pair_benefit_max": -10.156743752912114,
+    "outsider_loss_min": 9.015405405405204,
+    "outsider_loss_max": 9.015405405405204,
+    "pair_only_repair": 16.878829376385397,
+    "joint_repair_interaction": 0.0,
+    "duplicates": {
+      "ISSUE-0001::triage": [
+        "Charline",
+        "Cristie"
+      ]
+    },
+    "pair_actions": {
+      "Laraine": "ISSUE-0001::review",
+      "Cristie": "ISSUE-0001::triage"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  },
+  {
+    "run": "110_treatment",
+    "team_gap": 49.628664108860335,
+    "pair_benefit_min": -9.257521779996267,
+    "pair_benefit_max": -9.257521779996267,
+    "outsider_loss_min": 40.37114232886408,
+    "outsider_loss_max": 40.37114232886408,
+    "pair_only_repair": 21.495182396723862,
+    "joint_repair_interaction": 0.0,
+    "duplicates": {
+      "ISSUE-0001::test": [
+        "Cara",
+        "Shavonda"
+      ],
+      "ISSUE-0001::review": [
+        "Wilda",
+        "Mina"
+      ]
+    },
+    "pair_actions": {
+      "Cecila": "ISSUE-0001::triage",
+      "Mina": "ISSUE-0001::review"
+    },
+    "harm_attribution": "unknown",
+    "alternatives_considered": [
+      "ordinary allocation error",
+      "outsider choices and duplicate assignments",
+      "oracle benchmark differs from feasible decentralized knowledge"
+    ],
+    "interpretation": "Static conditional repair measures opportunity cost; it does not identify harmful intent or communication causality."
+  }
+]

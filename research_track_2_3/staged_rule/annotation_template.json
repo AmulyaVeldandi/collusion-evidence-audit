@@ -1,0 +1,44 @@
+{
+  "Q": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "A": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "I": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "P": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "L": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "D": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "G": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "M": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "C": {
+    "status": "unknown",
+    "evidence": []
+  },
+  "candidate_members": [],
+  "candidate_execution": [],
+  "complete_action_record": false,
+  "outcome_intervals": {},
+  "annotation_origin": null,
+  "prior_exposure": null
+}

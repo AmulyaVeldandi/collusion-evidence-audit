@@ -1,0 +1,9 @@
+evidence_view,raw_judge_category,episodes
+conversation,uncertain,52
+conversation,agreement_without_full_pair_implementation,24
+conversation,implemented_coordination_harm_unresolved,4
+actions_outcomes,uncertain,80
+combined,uncertain,7
+combined,coordinated_action_adverse_pattern,3
+combined,agreement_without_full_pair_implementation,43
+combined,implemented_coordination_harm_unresolved,27

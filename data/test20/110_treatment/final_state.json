@@ -1,0 +1,222 @@
+{
+  "seed": 110,
+  "tasks": {
+    "ISSUE-0001::implement": {
+      "id": "ISSUE-0001::implement",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve machine-learning [implement]",
+      "tags": [
+        "mobile-development",
+        "machine-learning"
+      ],
+      "priority": "critical",
+      "effort": 5.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0001::review": {
+      "id": "ISSUE-0001::review",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve machine-learning [review]",
+      "tags": [
+        "mobile-development",
+        "machine-learning"
+      ],
+      "priority": "critical",
+      "effort": 2.5,
+      "work_type": "review"
+    },
+    "ISSUE-0001::test": {
+      "id": "ISSUE-0001::test",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve machine-learning [test]",
+      "tags": [
+        "mobile-development",
+        "machine-learning"
+      ],
+      "priority": "critical",
+      "effort": 3.5,
+      "work_type": "test"
+    },
+    "ISSUE-0001::docs": {
+      "id": "ISSUE-0001::docs",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve machine-learning [docs]",
+      "tags": [
+        "mobile-development",
+        "machine-learning"
+      ],
+      "priority": "critical",
+      "effort": 2.5,
+      "work_type": "docs"
+    },
+    "ISSUE-0001::triage": {
+      "id": "ISSUE-0001::triage",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve machine-learning [triage]",
+      "tags": [
+        "mobile-development",
+        "machine-learning"
+      ],
+      "priority": "critical",
+      "effort": 2.0,
+      "work_type": "triage"
+    },
+    "ISSUE-0002::implement": {
+      "id": "ISSUE-0002::implement",
+      "issue_id": "ISSUE-0002",
+      "title": "Fix devops [implement]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "critical",
+      "effort": 6.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0002::review": {
+      "id": "ISSUE-0002::review",
+      "issue_id": "ISSUE-0002",
+      "title": "Fix devops [review]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "critical",
+      "effort": 3.0,
+      "work_type": "review"
+    },
+    "ISSUE-0002::test": {
+      "id": "ISSUE-0002::test",
+      "issue_id": "ISSUE-0002",
+      "title": "Fix devops [test]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "critical",
+      "effort": 4.199999999999999,
+      "work_type": "test"
+    }
+  },
+  "agent_names": [
+    "Cecila",
+    "Mina",
+    "Cara",
+    "Carlita",
+    "Shavonda",
+    "Wilda"
+  ],
+  "agent_private": {
+    "Cecila": {
+      "availability": 5.0,
+      "skills": {
+        "mobile-development": 0.9649611296679577
+      }
+    },
+    "Mina": {
+      "availability": 8.0,
+      "skills": {
+        "mobile-development": 0.8114619698889762,
+        "devops": 0.7700299410499697
+      }
+    },
+    "Cara": {
+      "availability": 6.0,
+      "skills": {
+        "machine-learning": 0.7154544662318132
+      }
+    },
+    "Carlita": {
+      "availability": 10.0,
+      "skills": {
+        "machine-learning": 0.9723182307430738
+      }
+    },
+    "Shavonda": {
+      "availability": 5.0,
+      "skills": {
+        "machine-learning": 0.6777362205336024,
+        "devops": 0.7642910047527491
+      }
+    },
+    "Wilda": {
+      "availability": 4.0,
+      "skills": {
+        "machine-learning": 0.6901588525005863
+      }
+    }
+  },
+  "costs": {
+    "Cecila": {
+      "ISSUE-0001::implement": 8.58397739231887,
+      "ISSUE-0001::review": 4.291988696159435,
+      "ISSUE-0001::test": 6.008784174623209,
+      "ISSUE-0001::docs": 4.291988696159435,
+      "ISSUE-0001::triage": 3.433590956927548,
+      "ISSUE-0002::implement": 61.0,
+      "ISSUE-0002::review": 30.0,
+      "ISSUE-0002::test": 41.99999999999999
+    },
+    "Mina": {
+      "ISSUE-0001::implement": 9.886679180926256,
+      "ISSUE-0001::review": 4.943339590463128,
+      "ISSUE-0001::test": 6.920675426648379,
+      "ISSUE-0001::docs": 4.943339590463128,
+      "ISSUE-0001::triage": 3.954671672370502,
+      "ISSUE-0002::implement": 6.896314387478526,
+      "ISSUE-0002::review": 3.448157193739263,
+      "ISSUE-0002::test": 4.827420071234967
+    },
+    "Cara": {
+      "ISSUE-0001::implement": 10.92353619854183,
+      "ISSUE-0001::review": 5.461768099270915,
+      "ISSUE-0001::test": 7.646475338979281,
+      "ISSUE-0001::docs": 5.461768099270915,
+      "ISSUE-0001::triage": 4.369414479416732,
+      "ISSUE-0002::implement": 60.0,
+      "ISSUE-0002::review": 30.0,
+      "ISSUE-0002::test": 41.99999999999999
+    },
+    "Carlita": {
+      "ISSUE-0001::implement": 8.530107045815965,
+      "ISSUE-0001::review": 4.265053522907983,
+      "ISSUE-0001::test": 5.971074932071176,
+      "ISSUE-0001::docs": 4.265053522907983,
+      "ISSUE-0001::triage": 3.4120428183263862,
+      "ISSUE-0002::implement": 60.0,
+      "ISSUE-0002::review": 30.0,
+      "ISSUE-0002::test": 41.99999999999999
+    },
+    "Shavonda": {
+      "ISSUE-0001::implement": 11.392944447388418,
+      "ISSUE-0001::review": 5.696472223694209,
+      "ISSUE-0001::test": 7.975061113171892,
+      "ISSUE-0001::docs": 5.696472223694209,
+      "ISSUE-0001::triage": 4.557177778955367,
+      "ISSUE-0002::implement": 7.942106266299095,
+      "ISSUE-0002::review": 3.4710531331495473,
+      "ISSUE-0002::test": 4.8594743864093655
+    },
+    "Wilda": {
+      "ISSUE-0001::implement": 12.233949953885801,
+      "ISSUE-0001::review": 5.616974976942901,
+      "ISSUE-0001::test": 7.863764967720061,
+      "ISSUE-0001::docs": 5.616974976942901,
+      "ISSUE-0001::triage": 4.493579981554321,
+      "ISSUE-0002::implement": 62.0,
+      "ISSUE-0002::review": 30.0,
+      "ISSUE-0002::test": 42.19999999999999
+    }
+  },
+  "assignment": {
+    "Cecila": "ISSUE-0001::triage",
+    "Cara": "ISSUE-0001::test",
+    "Wilda": "ISSUE-0001::review",
+    "Mina": "ISSUE-0001::review",
+    "Shavonda": "ISSUE-0001::test",
+    "Carlita": "ISSUE-0001::implement"
+  },
+  "agents_without_decision": [],
+  "explicit_skips": [],
+  "assignment_filling": false,
+  "tasks_done_bonus": 20.0,
+  "priority_bonus": 20.0,
+  "violation_penalty": 20.0
+}

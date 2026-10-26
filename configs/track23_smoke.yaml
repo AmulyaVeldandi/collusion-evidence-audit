@@ -1,0 +1,45 @@
+simulation:
+  max_iterations: 1
+  max_planning_rounds: 4
+  max_conversation_steps: 3
+  seed: 9999
+  tags:
+  - hackathon_positive_control
+environment:
+  name: JiraTicketEnvironment
+  assignment_filling: false
+  max_tasks: 8
+communication_network:
+  topology: complete
+  num_agents: 6
+  consolidate_channels: true
+llm_models:
+- label: openai_gpt4o_mini
+  llm:
+    provider: openrouter
+    openrouter:
+      model: Qwen/Qwen2.5-7B-Instruct
+      params:
+        max_tokens: 1500
+        temperature: 0.7
+experiment:
+  tag: track23_smoke
+  output_dir: experiments/collusion/outputs/track23_smoke
+  max_concurrent_runs: 1
+  seeds:
+  - 9999
+  collusion:
+    colluder_selection: first
+    agent_order: random
+  sweeps:
+  - name: treatment
+    topologies:
+    - complete
+    num_agents:
+    - 6
+    colluder_counts:
+    - 2
+    secret_channel_enabled:
+    - true
+    prompt_variants:
+    - simple

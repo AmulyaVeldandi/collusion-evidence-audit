@@ -1,0 +1,302 @@
+[
+  {
+    "run": "101_baseline",
+    "directory": "data/test20/101_baseline",
+    "sha256": {
+      "tool_events.json": "8b67283a1bdf577a653acc1ed0847c5b818289092b54124712a68609262a6d2a",
+      "blackboards.json": "667438e223719121769ff8c22d333090e3acd10c13a712be81b95701bdfe0272",
+      "agent_prompts.json": "abcacfbd85adfdfab7c880de2e9c21483acd0963133ca36906046288d47872da",
+      "agent_trajectories.json": "c37cf79a20b61d973ca67d0b57cfd4722346a79eb3628c5c310b647264293d26",
+      "initial_state.json": "01ec1a44cceca5fc4994c97ccf0c48f65f2dc9e68f47af526df59e4cafa798e2",
+      "final_state.json": "3623c01b4b861226a6a95f3e1e3c74cce06c75e8bf9afbbbff4897d511c1e623",
+      "final_summary.json": "db57669b0dfc6d2b6b67b5c0d558a9cb8524de3dadd79277fd9aee9dc0eff24e",
+      "run_config.json": "7e4ae4142b9743e153c7ee4186765c39147df5ad91068f50e5a17c168ab6ace2",
+      "metrics.json": "f86f9949cdcf6718db58b92780725fd10587bf449eab7dbc0328421456bdb854"
+    }
+  },
+  {
+    "run": "102_baseline",
+    "directory": "data/test20/102_baseline",
+    "sha256": {
+      "tool_events.json": "307e59020778bc8982dceda8ffe9956544d2babcc7c99c56c0a28f93cb0dcaae",
+      "blackboards.json": "aa1328ecec38dcb61046dd303514326c3f4e1d0e7f07659f6b75d7b61a258107",
+      "agent_prompts.json": "f99a0caf80e18bac657447b6ed246e4da8dee6ef3955e7365905b5134185e32d",
+      "agent_trajectories.json": "2a3c3452331a23f66581401414516e431a24a8cc575e5796fe6fbadec594baa1",
+      "initial_state.json": "f9a88abfca4aab42770fa66ae4aa6a223fb5fb5bf541d3fcb53ad8c16a8f2e68",
+      "final_state.json": "045bc35f4e88f5978adff6d14f99d234ab8e96c19ddec071b124e76a6089f80b",
+      "final_summary.json": "9252f216c6582f63eff6e8345b00edbc562063482e36930c7c23fe11b5909011",
+      "run_config.json": "afcfa5328cd5b248a8ca23dcf12bb0e9997e6134242ca80204266016df49258d",
+      "metrics.json": "29c7284e7ac57f0081aed6fd973e0a68511e264ccd8a8d5f036e794a46950898"
+    }
+  },
+  {
+    "run": "103_baseline",
+    "directory": "data/test20/103_baseline",
+    "sha256": {
+      "tool_events.json": "82952ecae2abc0d6876613c628d84da81d4ae69d4466f72d24db57f7847f7501",
+      "blackboards.json": "9a382a29d25408f414765a6977ec36fa4b9921bee027e0087e53914f76a4a0fc",
+      "agent_prompts.json": "f56fde16b84ef2c108d07492321ed23c1c6e050d8d10a8636399131cf6b41e63",
+      "agent_trajectories.json": "88bfcdf2ab5d06fa3197ebc9be7b35e2240ea2c92cfc384cd7cd92a69c5fc8af",
+      "initial_state.json": "3b858886ffcf279179c76c0b08bd13eaef1f9266cf49dbe02c3a3e05bf17de05",
+      "final_state.json": "43e43664390622a0aa0bc99397a57c2b0681e3707564f5d58b13b9fb269e39ce",
+      "final_summary.json": "e3cb18a32fdf0d21fee11a5e647c3768488162bf2f8931cf2ddbb9257cd29b18",
+      "run_config.json": "3b11f08ff12c6ee4fe9f22a61878cfe55d16806e53459aef561ca3f40927affb",
+      "metrics.json": "2574f1410ad6aa99a7121cb99726c0d2d064bf544a3d5d873eafd18ec1a9d081"
+    }
+  },
+  {
+    "run": "104_baseline",
+    "directory": "data/test20/104_baseline",
+    "sha256": {
+      "tool_events.json": "2fba67d8ae91a0b73014d08011e3d7372c43df80c649f013db625b930323f7c1",
+      "blackboards.json": "4052b3a63eb46900fd9f22b9c5564aad7f453f2b2c092b054fb8915f45e2ec81",
+      "agent_prompts.json": "b69de7a2095966d979b1e5d9c0bdfa48061ca9ca747b7c54f30f37de9e8a7772",
+      "agent_trajectories.json": "ff7cc89cd24b7327693b53eada38822704555fd87efb61ed94e078a184fc806c",
+      "initial_state.json": "2f0c8486888a3f7e7686c355f5381a049f60a84fa07526b1f4ef96d97a0a71f8",
+      "final_state.json": "3d72a7e39e69c5c41e168ff0add6ec7cd9879bd83696691b95dc23cc8340da2a",
+      "final_summary.json": "8ee1ac824ab4a79a80ad27a1b4ddf9b0c45744b8c950bff863bdb664b1fe7c5d",
+      "run_config.json": "378695055afea192045fadf33f8b0093070cc32f4025a36bf7b5872b04bdf7b7",
+      "metrics.json": "5a6c564b31500fd936d62426c79cd2a237d418d3ab9806b016535674b42c2f3d"
+    }
+  },
+  {
+    "run": "105_baseline",
+    "directory": "data/test20/105_baseline",
+    "sha256": {
+      "tool_events.json": "129595e13ca925b72bf0f37893e3f345681b741eb1e6eb58435f777631d95d0a",
+      "blackboards.json": "398ca4f5516c6afe8b8f0ccefcaad2f8c7ddf6817764d3a8512cd7b150377e45",
+      "agent_prompts.json": "ecb49d62c1700445fc9b200508d1e8210613406744e3a5ed4a266a21608518be",
+      "agent_trajectories.json": "f19695bd527dba7eb2fded00086ce81f8c11e29f595f5e6016f64e0eaa774ef4",
+      "initial_state.json": "f5ab9197aa1ead9818e04a5e7cd61c625bca57d30047a5b82746f643ab560a99",
+      "final_state.json": "31770b091a864448064179f0a647b869b7dfe5a6a3f4f5bab70c177812eaa691",
+      "final_summary.json": "d2edc239608dde904264ac7ff81e1ea3e0d2bac7c33bf8586957cf157cb0463c",
+      "run_config.json": "f201f6c5c2c867ce87d63db85019bf3a67a1fc73ffcc1036a95174758109e954",
+      "metrics.json": "8b6092f69da0ea30e73a770ce68656ab3b93a207d6a41792a83d6506d4e6e8be"
+    }
+  },
+  {
+    "run": "106_baseline",
+    "directory": "data/test20/106_baseline",
+    "sha256": {
+      "tool_events.json": "2f92acdf12e3fd1421b60e378c481758405f130ac4f45771585e96329108b7d3",
+      "blackboards.json": "1e13a592defa75f0700ed031f1aa77ab564ae82f538f22d24105a9954142c985",
+      "agent_prompts.json": "14b4b990eeab526dee0d227889d7f5ffc99b21e08c9a36af3492707efc5eb014",
+      "agent_trajectories.json": "ecc1bf768856d3aa8bdf6674a1572d5f38508bfd0001d3735029c409cbe97f28",
+      "initial_state.json": "fcbf81eba3a59917f94f28cfed81000689bdb296cadfa0a24073d62d63f3bff5",
+      "final_state.json": "67f5cb7f7657f0f4ecdfbcee533a1dbedaf61db1783d91842f44241c98ddb669",
+      "final_summary.json": "b9fd475a331d7ef505de933b7c7e82ca8ac02f1f3b27405b02383fb717464f2a",
+      "run_config.json": "4dcbaedb90b418ef0b7ac8f60ed1d228e48db0b3628eaa7a362343e281352f42",
+      "metrics.json": "84cdc2cd1b2e3fec71d874345eae28e1f920a6e6c883396cd03afb37e7c6e2b3"
+    }
+  },
+  {
+    "run": "107_baseline",
+    "directory": "data/test20/107_baseline",
+    "sha256": {
+      "tool_events.json": "c4bce5c1fa93caa0d528ba4bd08dad5489c8b9649f67e5ceb3f248b77da2f96a",
+      "blackboards.json": "d83528629707533020c68118cfbf5daabf27b2ebea0d63d0f317b0b1efdb2339",
+      "agent_prompts.json": "f01bf1c8141ff34510ad6da3074a3a1e8f202bd239beb4a277269fd0a07e31c3",
+      "agent_trajectories.json": "68c3e055a64d8a7378ce5611101bdc9562a9cbdc21c9c8eefd0463fa224f0f25",
+      "initial_state.json": "6e40992454613388e22ef134e9a0cae86733d01d4091f5463710952b3abc854a",
+      "final_state.json": "c2c87302220d9e87ee2527411d2fa4859487de6643e1ae965088277d206f530d",
+      "final_summary.json": "c69ba15b65cedc4b471c1043f409bbd77105b8444d73b08c00a8252a9f80da03",
+      "run_config.json": "abb65893a9ff0de00fd8564be98a29de38a6c009529d52a6bcb910143ee2e402",
+      "metrics.json": "fe168c841867747f13cca9a7da0e009f7231365a5724eb7f5596a6c05fd61a04"
+    }
+  },
+  {
+    "run": "108_baseline",
+    "directory": "data/test20/108_baseline",
+    "sha256": {
+      "tool_events.json": "5b0461bb436c9004c1c7ad5ead4ac842b4bc60e6061f5b3028d83dacafe1f926",
+      "blackboards.json": "50e20ac5e994d7410fe14593b530a80c61775cf248c16f3d945264a722b4e3f1",
+      "agent_prompts.json": "773b7dee6933b0ed25e168d5ca4448eb14ee6b4a070fd60625f5943e6574b62f",
+      "agent_trajectories.json": "4562c22f9eb049cb1c761d9c2d7de49885c7aa75689969819f357ea35eaa360f",
+      "initial_state.json": "3a8d39546305ff066596df2f0a3d8c926da298a1edd213a55ab772440346e32b",
+      "final_state.json": "1a70cedf9fe944c91db8d8fb8da1d509d7176709702d91b018b6e37a27d032a6",
+      "final_summary.json": "a57e4c018e591032656a9d85f2ec217d98fa8804e49d668bcf1d8f589b3f3340",
+      "run_config.json": "32903ed8c8355bdf181544c9d7ec38bb0f46a7b8684aba1cd21286a8b2a006af",
+      "metrics.json": "03dc189813f7771ecdc217dc9fb35dfcc84c18a30d88d782596de7f70b5caa11"
+    }
+  },
+  {
+    "run": "109_baseline",
+    "directory": "data/test20/109_baseline",
+    "sha256": {
+      "tool_events.json": "3b5b1dd8b806f1805eedc6adfcbea65e82a41cd44c4f59110da683dadf8dbccf",
+      "blackboards.json": "8cb8d96db30ba37f4c74df70bbeacdc08a8124952d144caf4e46f76c775efd1e",
+      "agent_prompts.json": "3adaf695f11248ec3ff54c59954ad354fd8bca4c16904a853be9c550f34233b3",
+      "agent_trajectories.json": "9d53422d06ddfb3664b0cf396ceae207f9ea5d071b2b3b54b90ec41f3af4859b",
+      "initial_state.json": "5439edda1e045abb5829fdb8a1a6b95d28e438fa2bf96f871ee792970fd63945",
+      "final_state.json": "c59ede533af6b4b4e386fdec531298b5f28fe2fd6a1281e4bc35a11fd35ddae3",
+      "final_summary.json": "bd14f35dbabfd5740342462a75f327977b94147df3b268de7400b3b4c3c8219a",
+      "run_config.json": "940dae31d29c0a9c98da45236e9e0f772b5b742e2d9244ecc94a2f565a33220d",
+      "metrics.json": "5ee5c8e23045f5161c5d6d39c48f2dfd6629d691bf1abbac9b5a86ff75a520df"
+    }
+  },
+  {
+    "run": "110_baseline",
+    "directory": "data/test20/110_baseline",
+    "sha256": {
+      "tool_events.json": "1a08021fb837b3ef13caa0bcdf0d9644874244ddf59261e327fd29651d79b339",
+      "blackboards.json": "89eb3b3d001fea41484de5dc448e5e66cc090b73d24fe4e2f2ba76cfca5d78ec",
+      "agent_prompts.json": "6145a101dab5e98c7cfc2a4294727a10e90e7c16bcdd7f9e317018b15d7ee231",
+      "agent_trajectories.json": "324766e12bed33a2845cae9f105253a011616692ff2ed63df186c15e9b1d36c4",
+      "initial_state.json": "4a37a68fcfc589f810e9d9b0df3774dff22c29506fe935eeba6b5cf1532cb39f",
+      "final_state.json": "8ab8307b04549ef7c6cab1e77b76cd169ce8c959dbd50e015ab34a1316a64a69",
+      "final_summary.json": "2751931dab6c47e5d071e8970017cc9392a44a3b0a731355f3e04562def31d32",
+      "run_config.json": "9506f817018192e622a7fbc7eb9846d169a973ddb223ce8fcee8fb740e556b34",
+      "metrics.json": "a1d60346cd2a3ad4cb029ed3301eccfbbc0033e45f5441d5082d1ceb17b501ba"
+    }
+  },
+  {
+    "run": "101_treatment",
+    "directory": "data/test20/101_treatment",
+    "sha256": {
+      "tool_events.json": "a7e7f48da212b634084d21dca641766b8502db9eb33f2e4149d68f452e883c7e",
+      "blackboards.json": "e52633e436ea9c2597bdb4d6e742c6695055cc8661f44315a96205b249850b13",
+      "agent_prompts.json": "97408b1b3eef524cf238b381ca7f09c0d0bcb644744d1b530ffa904bbb65344e",
+      "agent_trajectories.json": "50ff81ab0e8b5dfe90ad5ab95b740c82824b83b85ab29785e1b9c583afbe905d",
+      "initial_state.json": "01ec1a44cceca5fc4994c97ccf0c48f65f2dc9e68f47af526df59e4cafa798e2",
+      "final_state.json": "d3f9c778c1dfbe36dbb307a68136394d58cdd912a8f3f139db2137c2fbf1135c",
+      "final_summary.json": "4c580b59e8ed14db460dad669abe49be87b4d0003318e9c8647dfebcb7dcd132",
+      "run_config.json": "21ab1d4a2d72c7dcdef7aa72f855aaa6fdbc4eaa7ae9f01fe77e7c5d2f8437f4",
+      "metrics.json": "accc48c3c36faf62c46eadcec70d393064fab87d8cf7f28bfedf9542b40fd958"
+    }
+  },
+  {
+    "run": "102_treatment",
+    "directory": "data/test20/102_treatment",
+    "sha256": {
+      "tool_events.json": "349839b3b63310dcddce7d9e5c51953e9ac0b24131f43054c0c0a7082baff1ab",
+      "blackboards.json": "3b5d2a59f5dbb6d63731dd520f07af9309b70b613e4cfb5f9a4a4a62185c7e67",
+      "agent_prompts.json": "f2c4b6661c6f020bf0a6ddb8d1c2f72f05bf432186ba16f216a702da20112898",
+      "agent_trajectories.json": "63434f7401956f00f12f7185a20cf6d38bdf0ed66c44acfb2efb6ff36aab4e54",
+      "initial_state.json": "f9a88abfca4aab42770fa66ae4aa6a223fb5fb5bf541d3fcb53ad8c16a8f2e68",
+      "final_state.json": "4a78a05bf89b455f85d602768504986aa9684945a56a455a467ba23e5c92151a",
+      "final_summary.json": "e8fb7fc471737ce1517f5f2cfd7b858422d10ed8873fd8b5010beff3212f3915",
+      "run_config.json": "d7118b12867107f1ae17a84ef4909dcdf5248211eeb3dfd89384c7560b9fc00f",
+      "metrics.json": "6f8df8ab66be7142e637d09632249f68a0a2a76d028677de5a2055fa2996ef7e"
+    }
+  },
+  {
+    "run": "103_treatment",
+    "directory": "data/test20/103_treatment",
+    "sha256": {
+      "tool_events.json": "9bd3e93abfd28fee5bad1c54b754594d33ea1ff3c3cd9e93b832fad05e889c7e",
+      "blackboards.json": "4faedf89c041da46e406b87dada591c2a1e8c3de8cc7d4d81e35d03f9645e014",
+      "agent_prompts.json": "0e188e1f80220b26ecbb3860879aed0f60ccb08661eece0bce99279ed55ea457",
+      "agent_trajectories.json": "a62fa83e3593f819d19b20e5341c68f65a27eb3263afc1d51fa7c739a82238cc",
+      "initial_state.json": "3b858886ffcf279179c76c0b08bd13eaef1f9266cf49dbe02c3a3e05bf17de05",
+      "final_state.json": "80517af60852378e3ed8857d3305d5e37342bd179b839ff022b73367d086343d",
+      "final_summary.json": "c6de7d50b67f3b87b459591845f80352f74e57c7ebba9260074cb2a3aec8c26b",
+      "run_config.json": "fd0c1b41e91c32666162e3a3985800cb25818bd191a44d94d25860cde8b09f89",
+      "metrics.json": "66ee40034b4a45247688aa62689cb32bba2550c6febc69630e17cfeff2aecfe6"
+    }
+  },
+  {
+    "run": "104_treatment",
+    "directory": "data/test20/104_treatment",
+    "sha256": {
+      "tool_events.json": "17f986ff943eb40d72e168bd81213ed26bee7fc76461092d6a26078bccce5ec0",
+      "blackboards.json": "e887bec72c39f65db4070b03bdd183ee5c7008126e85ca6d07c65dc39af996b0",
+      "agent_prompts.json": "15a7ab5bb7abc1cb4df4d487d69dbe7e856fa52a519dbfa78197d2aab899d844",
+      "agent_trajectories.json": "54c4a9df9f0e77a269cdf1dca8bc5fdd9c19eed0eaf9ac3d6de7f1e9240af0ab",
+      "initial_state.json": "2f0c8486888a3f7e7686c355f5381a049f60a84fa07526b1f4ef96d97a0a71f8",
+      "final_state.json": "9a140a6526c35e3c64fa2097b045807f8274706e2110b0f1622ce83d4ff74785",
+      "final_summary.json": "784ac20945ad4645db2b127194781ffedad000af6ba15477fe9a28e3c1542a8c",
+      "run_config.json": "7a52059407fa480fafc5966212e97e6fbf2361cab5cba05010809582ec4ff72f",
+      "metrics.json": "7c80a74ff7606662b49e8f9c57b8f75d96e4e5b1a0301a4fe405e65118403e43"
+    }
+  },
+  {
+    "run": "105_treatment",
+    "directory": "data/test20/105_treatment",
+    "sha256": {
+      "tool_events.json": "9d2f571297a148536f777c8582489813a5be339d18cb36cc561a5720c7115bc9",
+      "blackboards.json": "244c30792a6e546efabcdb658efd32600cd40364660806b668e3bb61bf4c8acc",
+      "agent_prompts.json": "b5c604c30fe18130d6f31e8a74d05b46ec616010c167ce9dd40cba8d6b19b513",
+      "agent_trajectories.json": "1ae6143a3d0ad53025a4b4ef767617da559a80cbb88790e1a6c6496f272fbe77",
+      "initial_state.json": "f5ab9197aa1ead9818e04a5e7cd61c625bca57d30047a5b82746f643ab560a99",
+      "final_state.json": "d491360d7315885d1ea74d7b9d3cd70706a2690bdff5565adc3affa8e12c6c23",
+      "final_summary.json": "60fc081bd533e17b37b6b4f3ca490b8acf1291ebb69a9a608e2550afe80ace2d",
+      "run_config.json": "e76cf8045ff1d70f86f0b2a9f4028accfb35f9ca8e403524a725489d745e5d7f",
+      "metrics.json": "a3eca5947ad33618b29c90cba6201330942bf268ad27c724843c2c123fbf7c1a"
+    }
+  },
+  {
+    "run": "106_treatment",
+    "directory": "data/test20/106_treatment",
+    "sha256": {
+      "tool_events.json": "9100128779bef0faa34e1a0a48e7bbf6cc6c0a335cf11d80ab7a5fa1bc457c54",
+      "blackboards.json": "209b35abf8ce75db484cfeceb737c9d715e6448e81e26b2cf49a48b3c4644f85",
+      "agent_prompts.json": "acde3936c14871336cb5da52a4cb491d2f91976aa5b6423428f30dda046eeb20",
+      "agent_trajectories.json": "0173f25db9375479d020ae123027c2ad634419841568b30e343e6f5fb94e830d",
+      "initial_state.json": "fcbf81eba3a59917f94f28cfed81000689bdb296cadfa0a24073d62d63f3bff5",
+      "final_state.json": "08386adc68723203765a61c73aa0254b94f4ae590ced2d84bf83645123df1305",
+      "final_summary.json": "699f62d274f96804d47b4a008f1bc92e1f2a96bc2343a819b779638579af3fed",
+      "run_config.json": "bfdac7bfef2f003e4077b16b1121ae44d96acc225b7b5246bb7a5b6f159a99fe",
+      "metrics.json": "7f484e37908b3bf248e1536d51f5dfb6dc0758683ffd7aeceab7b28079d5b3fa"
+    }
+  },
+  {
+    "run": "107_treatment",
+    "directory": "data/test20/107_treatment",
+    "sha256": {
+      "tool_events.json": "555a29d5aac4b009b44c129fdc951ea5bb2f67dac7d1172a663836b6db39f4f3",
+      "blackboards.json": "302cacc811b3489326494059b034fb820a162511a56a1f003a14203422348ce7",
+      "agent_prompts.json": "094df1790da86d7d9dd45638d967eef3925ba9f06ff116066a70241523b6fedf",
+      "agent_trajectories.json": "64f586b30e0e0919a86e3be3b77d2e6497c8c25def4e02686f5015074842a3e8",
+      "initial_state.json": "6e40992454613388e22ef134e9a0cae86733d01d4091f5463710952b3abc854a",
+      "final_state.json": "8e1c452a19bddaf58b7415fc91b2de2cfa8b3ed0b03f9f33f87ada4aa9afc89f",
+      "final_summary.json": "824fc2279c992ede4718438a9a6d5407c931c285485cb19ad96a6a4e116861f0",
+      "run_config.json": "d8f35cba2756f8d5aa6797c2fb6b82edaf793eed36b5260b0d33f15b8d4f255f",
+      "metrics.json": "5d24083553405c890dec5db2ca167d1705e183522a7cae7be838c56e6965d045"
+    }
+  },
+  {
+    "run": "108_treatment",
+    "directory": "data/test20/108_treatment",
+    "sha256": {
+      "tool_events.json": "2a8a90340f5729492acbf82629615a73b81fd8f0788ef303f30a74c41d060532",
+      "blackboards.json": "4dce9bfef3659b21b54febea2fb4d0599f8ebceccd75998c5425f2c0a9c1ca12",
+      "agent_prompts.json": "d893f9f249c227319c15bcbd81e3cd7d6d9b1145a35947d72637a1f42260a912",
+      "agent_trajectories.json": "25b478f64a156e07317f21c27854f54761f67b3c1b29d7835260bf6208a281d8",
+      "initial_state.json": "3a8d39546305ff066596df2f0a3d8c926da298a1edd213a55ab772440346e32b",
+      "final_state.json": "5b5e21768c06ae1adc833abfea96ba4ff99ed3e88d1adb6bc9b39a72805bf196",
+      "final_summary.json": "e9c151bb616c343d1f7719234020cc1ff9b13fb4e32d8446f9d75fa9761d816f",
+      "run_config.json": "b4fc64b886a6a9b0d66664c5e7598df2629cd786394d2de6dea57aa4f28f1aac",
+      "metrics.json": "39d23030fdf11dad8f1979f594053f56b021ae6f481bd3d56a2005334062d6a3"
+    }
+  },
+  {
+    "run": "109_treatment",
+    "directory": "data/test20/109_treatment",
+    "sha256": {
+      "tool_events.json": "3692923b97a90c016490628b5813b39030e61556490e3cb8296f6f94c9549ecd",
+      "blackboards.json": "052bda74e1ce025b1504e03534b21479136bced6856c2b4ebc7cfaa125ef6638",
+      "agent_prompts.json": "4ac3710d52f7e4fbd524e43754df379520eec1d4f0dbf4f183d0e1abb9411080",
+      "agent_trajectories.json": "be465e9b003a0c96ae355a7ba81c934858839497fa9bac06b2e9a9531e2bc3c2",
+      "initial_state.json": "5439edda1e045abb5829fdb8a1a6b95d28e438fa2bf96f871ee792970fd63945",
+      "final_state.json": "bbd5b3a69ce68f3267388710a8468ebb12abf2dee0518e670f0b0edab037d620",
+      "final_summary.json": "739314e32c151319d3c9c079539d552f1572415b2ee4bec6e64c0682bcf36fc8",
+      "run_config.json": "08f7160a14f2c407d6c30c6e3e407e1d032822d91ca4031ba99c432d3c34a925",
+      "metrics.json": "7dabcbdd496823d827d163cb4c451c979fa0695602ad07e8c3051d27ca989a35"
+    }
+  },
+  {
+    "run": "110_treatment",
+    "directory": "data/test20/110_treatment",
+    "sha256": {
+      "tool_events.json": "9edaf6b758429dd7cce5d20174e8e1fe15eb20fdeda726c35405d6b1b0c23903",
+      "blackboards.json": "47c698c4af0f4dd388cebc6fb2d078f3aeb89426123d2ed2a91c9d19186eba55",
+      "agent_prompts.json": "1869ed5402ec51a3f7bea31850919e3489bec4ecccfc0bb26cf501d807fcb483",
+      "agent_trajectories.json": "ebabe1fdeac25f74f9e975ff0479d43aebd17a014d061c247a80f4d630b6d166",
+      "initial_state.json": "4a37a68fcfc589f810e9d9b0df3774dff22c29506fe935eeba6b5cf1532cb39f",
+      "final_state.json": "0caa5956306124b01fd88d1115b30db8be49eec7c4b94a475d6c0ecf33d830ce",
+      "final_summary.json": "33720338c84d743f4f85f7ce59b05df1faed4fea99ef526fbc5f338c2f26b7d9",
+      "run_config.json": "56933113f293a7c722e760a4790a3c1bd72829dfda95acae033c081897ce5632",
+      "metrics.json": "2ab7afed15dc7a8ef0753aa31803c8e871f01e8595c68c2c4d7973d613a27801"
+    }
+  }
+]

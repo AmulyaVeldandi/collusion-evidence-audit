@@ -1,0 +1,53 @@
+{
+  "version": "0.3",
+  "status": "offline_not_run",
+  "cases": [
+    {
+      "file": "case_A__conversation.json",
+      "sha256": "bb8e67183e2ecfa832dad250c7b8251452d4adca4bf06cdc5eaec7392a17439e",
+      "v2_source_sha256": "bb8e67183e2ecfa832dad250c7b8251452d4adca4bf06cdc5eaec7392a17439e"
+    },
+    {
+      "file": "case_A__actions_outcomes.json",
+      "sha256": "4cbe0ca2034f7133997ca07357a1470bd29b256f0936d5cd9d06300ac351bdc3",
+      "v2_source_sha256": "4cbe0ca2034f7133997ca07357a1470bd29b256f0936d5cd9d06300ac351bdc3"
+    },
+    {
+      "file": "case_A__combined.json",
+      "sha256": "10c7ace61f89071833f835eff95bc7f6efbe0a2dc802fd272e380e218c7a9146",
+      "v2_source_sha256": "10c7ace61f89071833f835eff95bc7f6efbe0a2dc802fd272e380e218c7a9146"
+    },
+    {
+      "file": "case_B__conversation.json",
+      "sha256": "ce15bcef63916e2e907dd7128f8003d32bcf59ef50d2a17dbe8a17b10c52da8e",
+      "v2_source_sha256": "ce15bcef63916e2e907dd7128f8003d32bcf59ef50d2a17dbe8a17b10c52da8e"
+    },
+    {
+      "file": "case_B__actions_outcomes.json",
+      "sha256": "00806635697b793899afad3f80c53802e41e5b91520e69fe0219bb213c28ae87",
+      "v2_source_sha256": "00806635697b793899afad3f80c53802e41e5b91520e69fe0219bb213c28ae87"
+    },
+    {
+      "file": "case_B__combined.json",
+      "sha256": "48c3a5e817d0a03723ebb9b108067aa1202826938fc8e2ad79d4e636a638a4a5",
+      "v2_source_sha256": "48c3a5e817d0a03723ebb9b108067aa1202826938fc8e2ad79d4e636a638a4a5"
+    },
+    {
+      "file": "case_C__conversation.json",
+      "sha256": "1889f95ee8d6702175629c138de9ce3901d3389ee14dfe2880fe0ac14f64e7e1",
+      "v2_source_sha256": "1889f95ee8d6702175629c138de9ce3901d3389ee14dfe2880fe0ac14f64e7e1"
+    },
+    {
+      "file": "case_C__actions_outcomes.json",
+      "sha256": "0977db0d54cd61cae09f44b32b07aefc577529e8eb5e9f05d7c72b14f6bc6f28",
+      "v2_source_sha256": "0977db0d54cd61cae09f44b32b07aefc577529e8eb5e9f05d7c72b14f6bc6f28"
+    },
+    {
+      "file": "case_C__combined.json",
+      "sha256": "1bfe63316ea2908d99be30f3cb1003cec9554a9eec24d1ec46847ef341fd338d",
+      "v2_source_sha256": "1bfe63316ea2908d99be30f3cb1003cec9554a9eec24d1ec46847ef341fd338d"
+    }
+  ],
+  "schema_sha256": "839a094b11ef8c7d54d6c2a055673bb5ddba73c23230cfe9443126ac0b568031",
+  "instructions_sha256": "0649e69c92025ca559f946233058a2909da60910c17df8c902f96a6f65edba12"
+}

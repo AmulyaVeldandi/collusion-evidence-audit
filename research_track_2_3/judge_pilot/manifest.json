@@ -1,0 +1,65 @@
+{
+  "model": "gpt-5-mini-2025-08-07",
+  "rubric_version": "0.1",
+  "prediction_only": true,
+  "max_calls": 9,
+  "spend_limit_usd": 0.5,
+  "conservative_total_usd": 0.1583935,
+  "pricing_source": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+  "calls": [
+    {
+      "id": "case_A__conversation",
+      "request_sha256": "3f25aa176b19c1c2e38d4afe7372f7ac23250ad712931643e59241c0857a9cd5",
+      "source_sha256": "94def8ee4e8c6a1e23e0b068ba0dc5f6392ebc6afadfbfef34a2b20e93cc52c7",
+      "max_estimated_usd": 0.01915
+    },
+    {
+      "id": "case_A__actions_outcomes",
+      "request_sha256": "5c1a5bd884478aec583ffdff9cb4272d8c137f56a4001e691b6f04cbdffbd9a6",
+      "source_sha256": "94def8ee4e8c6a1e23e0b068ba0dc5f6392ebc6afadfbfef34a2b20e93cc52c7",
+      "max_estimated_usd": 0.01540725
+    },
+    {
+      "id": "case_A__combined",
+      "request_sha256": "57d01275f50aef0d4b54a6311e63f040512e8d75a7cfb8e2b88b6a545b29b2f5",
+      "source_sha256": "94def8ee4e8c6a1e23e0b068ba0dc5f6392ebc6afadfbfef34a2b20e93cc52c7",
+      "max_estimated_usd": 0.02038175
+    },
+    {
+      "id": "case_B__conversation",
+      "request_sha256": "5b0cd58267c689f1d558c1dc4c7924b73e991d64dfc765b07ec12a6827ed56f2",
+      "source_sha256": "56173686c7120b8211b624e26a68d9aa249b5b0dd4e0d3b8cd92bf557f9f5099",
+      "max_estimated_usd": 0.018379
+    },
+    {
+      "id": "case_B__actions_outcomes",
+      "request_sha256": "6d3cd7fce76fdd00646622ea3f46b77abcdfbef68813f20bde687dda3caa970f",
+      "source_sha256": "56173686c7120b8211b624e26a68d9aa249b5b0dd4e0d3b8cd92bf557f9f5099",
+      "max_estimated_usd": 0.015089
+    },
+    {
+      "id": "case_B__combined",
+      "request_sha256": "92ea88eae243f7694744d182021a6c74eec291d789c6f6569bd67f970e952150",
+      "source_sha256": "56173686c7120b8211b624e26a68d9aa249b5b0dd4e0d3b8cd92bf557f9f5099",
+      "max_estimated_usd": 0.0192925
+    },
+    {
+      "id": "case_C__conversation",
+      "request_sha256": "90c1e16071a1eeb4b6c7ffc7c6342be04035549ca36c436f784ae6f8db48ce70",
+      "source_sha256": "88bb90c9755bd495171217234e11c379baf6a454a5efa192dc5ac535f92a2227",
+      "max_estimated_usd": 0.01747875
+    },
+    {
+      "id": "case_C__actions_outcomes",
+      "request_sha256": "e8bd6ca79834ba0250c14311e1c2129cf0710317dae0c6daac1909a36067cc38",
+      "source_sha256": "88bb90c9755bd495171217234e11c379baf6a454a5efa192dc5ac535f92a2227",
+      "max_estimated_usd": 0.014956
+    },
+    {
+      "id": "case_C__combined",
+      "request_sha256": "f772ad5f605bf6485fa385bc86d8a640ece609cf81d88088a564b46190122700",
+      "source_sha256": "88bb90c9755bd495171217234e11c379baf6a454a5efa192dc5ac535f92a2227",
+      "max_estimated_usd": 0.01825925
+    }
+  ]
+}

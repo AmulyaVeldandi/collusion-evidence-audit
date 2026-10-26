@@ -1,0 +1,222 @@
+{
+  "seed": 101,
+  "tasks": {
+    "ISSUE-0001::implement": {
+      "id": "ISSUE-0001::implement",
+      "issue_id": "ISSUE-0001",
+      "title": "Build devops [implement]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "high",
+      "effort": 5.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0001::review": {
+      "id": "ISSUE-0001::review",
+      "issue_id": "ISSUE-0001",
+      "title": "Build devops [review]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "high",
+      "effort": 2.5,
+      "work_type": "review"
+    },
+    "ISSUE-0001::test": {
+      "id": "ISSUE-0001::test",
+      "issue_id": "ISSUE-0001",
+      "title": "Build devops [test]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "high",
+      "effort": 3.5,
+      "work_type": "test"
+    },
+    "ISSUE-0001::docs": {
+      "id": "ISSUE-0001::docs",
+      "issue_id": "ISSUE-0001",
+      "title": "Build devops [docs]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "high",
+      "effort": 2.5,
+      "work_type": "docs"
+    },
+    "ISSUE-0001::triage": {
+      "id": "ISSUE-0001::triage",
+      "issue_id": "ISSUE-0001",
+      "title": "Build devops [triage]",
+      "tags": [
+        "devops"
+      ],
+      "priority": "high",
+      "effort": 2.0,
+      "work_type": "triage"
+    },
+    "ISSUE-0002::implement": {
+      "id": "ISSUE-0002::implement",
+      "issue_id": "ISSUE-0002",
+      "title": "Build security [implement]",
+      "tags": [
+        "security"
+      ],
+      "priority": "critical",
+      "effort": 7.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0002::review": {
+      "id": "ISSUE-0002::review",
+      "issue_id": "ISSUE-0002",
+      "title": "Build security [review]",
+      "tags": [
+        "security"
+      ],
+      "priority": "critical",
+      "effort": 3.5,
+      "work_type": "review"
+    },
+    "ISSUE-0002::test": {
+      "id": "ISSUE-0002::test",
+      "issue_id": "ISSUE-0002",
+      "title": "Build security [test]",
+      "tags": [
+        "security"
+      ],
+      "priority": "critical",
+      "effort": 4.8999999999999995,
+      "work_type": "test"
+    }
+  },
+  "agent_names": [
+    "Nichelle",
+    "Paris",
+    "Cinthia",
+    "Tiana",
+    "Merissa",
+    "Aldo"
+  ],
+  "agent_private": {
+    "Nichelle": {
+      "availability": 10.0,
+      "skills": {
+        "devops": 0.6773146514924364,
+        "security": 0.6355454279339663
+      }
+    },
+    "Paris": {
+      "availability": 10.0,
+      "skills": {
+        "devops": 0.9145111898363478,
+        "security": 0.6955281306428519
+      }
+    },
+    "Cinthia": {
+      "availability": 5.0,
+      "skills": {
+        "security": 0.6251595807974161,
+        "devops": 0.7870863267907197
+      }
+    },
+    "Tiana": {
+      "availability": 6.0,
+      "skills": {
+        "security": 0.8659164454307293
+      }
+    },
+    "Merissa": {
+      "availability": 9.0,
+      "skills": {
+        "security": 0.7691868128682338,
+        "devops": 0.7618217728867203
+      }
+    },
+    "Aldo": {
+      "availability": 10.0,
+      "skills": {
+        "devops": 0.686680017516266,
+        "security": 0.6378799418971365
+      }
+    }
+  },
+  "costs": {
+    "Nichelle": {
+      "ISSUE-0001::implement": 6.432401589755255,
+      "ISSUE-0001::review": 3.2162007948776274,
+      "ISSUE-0001::test": 4.502681112828679,
+      "ISSUE-0001::docs": 3.2162007948776274,
+      "ISSUE-0001::triage": 2.5729606359021022,
+      "ISSUE-0002::implement": 9.516747347151515,
+      "ISSUE-0002::review": 4.758373673575758,
+      "ISSUE-0002::test": 6.661723143006061
+    },
+    "Paris": {
+      "ISSUE-0001::implement": 4.928481864065547,
+      "ISSUE-0001::review": 2.4642409320327734,
+      "ISSUE-0001::test": 3.449937304845883,
+      "ISSUE-0001::docs": 2.4642409320327734,
+      "ISSUE-0001::triage": 1.9713927456262188,
+      "ISSUE-0002::implement": 8.79918601287352,
+      "ISSUE-0002::review": 4.39959300643676,
+      "ISSUE-0002::test": 6.159430209011463
+    },
+    "Cinthia": {
+      "ISSUE-0001::implement": 5.6364300170073465,
+      "ISSUE-0001::review": 2.8182150085036732,
+      "ISSUE-0001::test": 3.9455010119051424,
+      "ISSUE-0001::docs": 2.8182150085036732,
+      "ISSUE-0001::triage": 2.2545720068029382,
+      "ISSUE-0002::implement": 11.653047667525133,
+      "ISSUE-0002::review": 4.826523833762566,
+      "ISSUE-0002::test": 6.757133367267592
+    },
+    "Tiana": {
+      "ISSUE-0001::implement": 50.0,
+      "ISSUE-0001::review": 25.0,
+      "ISSUE-0001::test": 35.0,
+      "ISSUE-0001::docs": 25.0,
+      "ISSUE-0001::triage": 20.0,
+      "ISSUE-0002::implement": 8.247003644169764,
+      "ISSUE-0002::review": 3.623501822084882,
+      "ISSUE-0002::test": 5.072902550918834
+    },
+    "Merissa": {
+      "ISSUE-0001::implement": 5.80166358904141,
+      "ISSUE-0001::review": 2.900831794520705,
+      "ISSUE-0001::test": 4.061164512328987,
+      "ISSUE-0001::docs": 2.900831794520705,
+      "ISSUE-0001::triage": 2.3206654356165637,
+      "ISSUE-0002::implement": 8.053504604954448,
+      "ISSUE-0002::review": 4.026752302477224,
+      "ISSUE-0002::test": 5.637453223468112
+    },
+    "Aldo": {
+      "ISSUE-0001::implement": 6.355824336032047,
+      "ISSUE-0001::review": 3.1779121680160234,
+      "ISSUE-0001::test": 4.449077035222433,
+      "ISSUE-0001::docs": 3.1779121680160234,
+      "ISSUE-0001::triage": 2.5423297344128186,
+      "ISSUE-0002::implement": 9.486638140620212,
+      "ISSUE-0002::review": 4.743319070310106,
+      "ISSUE-0002::test": 6.640646698434147
+    }
+  },
+  "assignment": {
+    "Tiana": "ISSUE-0001::review",
+    "Nichelle": "ISSUE-0001::triage",
+    "Aldo": "ISSUE-0001::test",
+    "Cinthia": "ISSUE-0001::implement",
+    "Paris": null,
+    "Merissa": "ISSUE-0001::review"
+  },
+  "agents_without_decision": [],
+  "explicit_skips": [
+    "Paris"
+  ],
+  "assignment_filling": false,
+  "tasks_done_bonus": 20.0,
+  "priority_bonus": 20.0,
+  "violation_penalty": 20.0
+}

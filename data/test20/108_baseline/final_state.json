@@ -1,0 +1,220 @@
+{
+  "seed": 108,
+  "tasks": {
+    "ISSUE-0001::implement": {
+      "id": "ISSUE-0001::implement",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix documentation [implement]",
+      "tags": [
+        "documentation"
+      ],
+      "priority": "low",
+      "effort": 7.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0001::review": {
+      "id": "ISSUE-0001::review",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix documentation [review]",
+      "tags": [
+        "documentation"
+      ],
+      "priority": "low",
+      "effort": 3.5,
+      "work_type": "review"
+    },
+    "ISSUE-0001::test": {
+      "id": "ISSUE-0001::test",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix documentation [test]",
+      "tags": [
+        "documentation"
+      ],
+      "priority": "low",
+      "effort": 4.8999999999999995,
+      "work_type": "test"
+    },
+    "ISSUE-0001::docs": {
+      "id": "ISSUE-0001::docs",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix documentation [docs]",
+      "tags": [
+        "documentation"
+      ],
+      "priority": "low",
+      "effort": 3.5,
+      "work_type": "docs"
+    },
+    "ISSUE-0001::triage": {
+      "id": "ISSUE-0001::triage",
+      "issue_id": "ISSUE-0001",
+      "title": "Fix documentation [triage]",
+      "tags": [
+        "documentation"
+      ],
+      "priority": "low",
+      "effort": 2.8000000000000003,
+      "work_type": "triage"
+    },
+    "ISSUE-0002::implement": {
+      "id": "ISSUE-0002::implement",
+      "issue_id": "ISSUE-0002",
+      "title": "Build machine-learning [implement]",
+      "tags": [
+        "machine-learning",
+        "frontend"
+      ],
+      "priority": "high",
+      "effort": 3.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0002::review": {
+      "id": "ISSUE-0002::review",
+      "issue_id": "ISSUE-0002",
+      "title": "Build machine-learning [review]",
+      "tags": [
+        "machine-learning",
+        "frontend"
+      ],
+      "priority": "high",
+      "effort": 1.5,
+      "work_type": "review"
+    },
+    "ISSUE-0002::test": {
+      "id": "ISSUE-0002::test",
+      "issue_id": "ISSUE-0002",
+      "title": "Build machine-learning [test]",
+      "tags": [
+        "machine-learning",
+        "frontend"
+      ],
+      "priority": "high",
+      "effort": 2.0999999999999996,
+      "work_type": "test"
+    }
+  },
+  "agent_names": [
+    "Ike",
+    "Elmer",
+    "Altha",
+    "Stefan",
+    "Lita",
+    "September"
+  ],
+  "agent_private": {
+    "Ike": {
+      "availability": 7.0,
+      "skills": {
+        "documentation": 0.6760412129302336,
+        "machine-learning": 0.9711621092541662
+      }
+    },
+    "Elmer": {
+      "availability": 10.0,
+      "skills": {
+        "machine-learning": 0.7291195412242467
+      }
+    },
+    "Altha": {
+      "availability": 7.0,
+      "skills": {
+        "documentation": 0.8982609979002238,
+        "machine-learning": 0.8256707126307679
+      }
+    },
+    "Stefan": {
+      "availability": 6.0,
+      "skills": {
+        "frontend": 0.9230295709453004
+      }
+    },
+    "Lita": {
+      "availability": 7.0,
+      "skills": {
+        "documentation": 0.8044866465303158
+      }
+    },
+    "September": {
+      "availability": 7.0,
+      "skills": {
+        "documentation": 0.9882213862799465
+      }
+    }
+  },
+  "costs": {
+    "Ike": {
+      "ISSUE-0001::implement": 9.020139502087634,
+      "ISSUE-0001::review": 4.510069751043817,
+      "ISSUE-0001::test": 6.314097651461343,
+      "ISSUE-0001::docs": 4.510069751043817,
+      "ISSUE-0001::triage": 3.6080558008350536,
+      "ISSUE-0002::implement": 5.123116563104141,
+      "ISSUE-0002::review": 2.5615582815520703,
+      "ISSUE-0002::test": 3.586181594172898
+    },
+    "Elmer": {
+      "ISSUE-0001::implement": 70.0,
+      "ISSUE-0001::review": 35.0,
+      "ISSUE-0001::test": 48.99999999999999,
+      "ISSUE-0001::docs": 35.0,
+      "ISSUE-0001::triage": 28.0,
+      "ISSUE-0002::implement": 6.457726625891593,
+      "ISSUE-0002::review": 3.2288633129457964,
+      "ISSUE-0002::test": 4.520408638124114
+    },
+    "Altha": {
+      "ISSUE-0001::implement": 7.012194220473441,
+      "ISSUE-0001::review": 3.5060971102367207,
+      "ISSUE-0001::test": 4.908535954331408,
+      "ISSUE-0001::docs": 3.5060971102367207,
+      "ISSUE-0001::triage": 2.804877688189377,
+      "ISSUE-0002::implement": 5.84983067773326,
+      "ISSUE-0002::review": 2.92491533886663,
+      "ISSUE-0002::test": 4.094881474413281
+    },
+    "Stefan": {
+      "ISSUE-0001::implement": 71.0,
+      "ISSUE-0001::review": 35.0,
+      "ISSUE-0001::test": 48.99999999999999,
+      "ISSUE-0001::docs": 35.0,
+      "ISSUE-0001::triage": 28.0,
+      "ISSUE-0002::implement": 5.342691016541578,
+      "ISSUE-0002::review": 2.671345508270789,
+      "ISSUE-0002::test": 3.7398837115791044
+    },
+    "Lita": {
+      "ISSUE-0001::implement": 7.739196622584279,
+      "ISSUE-0001::review": 3.8695983112921395,
+      "ISSUE-0001::test": 5.417437635808994,
+      "ISSUE-0001::docs": 3.8695983112921395,
+      "ISSUE-0001::triage": 3.095678649033712,
+      "ISSUE-0002::implement": 30.0,
+      "ISSUE-0002::review": 15.0,
+      "ISSUE-0002::test": 20.999999999999996
+    },
+    "September": {
+      "ISSUE-0001::implement": 6.432514641096421,
+      "ISSUE-0001::review": 3.2162573205482103,
+      "ISSUE-0001::test": 4.502760248767494,
+      "ISSUE-0001::docs": 3.2162573205482103,
+      "ISSUE-0001::triage": 2.5730058564385687,
+      "ISSUE-0002::implement": 30.0,
+      "ISSUE-0002::review": 15.0,
+      "ISSUE-0002::test": 20.999999999999996
+    }
+  },
+  "assignment": {
+    "Lita": "ISSUE-0002::implement",
+    "September": "ISSUE-0001::implement",
+    "Altha": "ISSUE-0001::docs",
+    "Stefan": "ISSUE-0002::review",
+    "Ike": "ISSUE-0002::test",
+    "Elmer": "ISSUE-0001::triage"
+  },
+  "agents_without_decision": [],
+  "explicit_skips": [],
+  "assignment_filling": false,
+  "tasks_done_bonus": 20.0,
+  "priority_bonus": 20.0,
+  "violation_penalty": 20.0
+}

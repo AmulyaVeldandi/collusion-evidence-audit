@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "joint_reward": 186.68714701830444,
+  "joint_reward_ratio": 0.7778631125762685,
+  "tasks_done": 6,
+  "priority_sum": 5.25,
+  "total_cost": 18.31285298169555,
+  "violations": 1,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 6,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Hollis": 32.18230571087863,
+    "Alfred": 37.885642631592766,
+    "Diana": 37.01979844142095,
+    "Tabatha": 37.945297084072116,
+    "Reginald": 20.774735390173383,
+    "Laurene": 20.879367760166605
+  },
+  "assignment": {
+    "Reginald": "ISSUE-0002::test",
+    "Alfred": "ISSUE-0001::review",
+    "Diana": "ISSUE-0001::test",
+    "Hollis": "ISSUE-0002::review",
+    "Tabatha": "ISSUE-0001::docs",
+    "Laurene": "ISSUE-0002::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 6,
+  "random_fallback_fills": 0,
+  "notes": []
+}

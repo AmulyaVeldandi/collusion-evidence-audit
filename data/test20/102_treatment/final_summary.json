@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "joint_reward": 131.7871796961632,
+  "joint_reward_ratio": 0.5491132487340133,
+  "tasks_done": 5,
+  "priority_sum": 3.75,
+  "total_cost": 23.21282030383679,
+  "violations": 1,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 6,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Romana": 33.819295443681355,
+    "Domonique": 22.204546216376684,
+    "Hattie": 22.285084579411738,
+    "Lavonne": 33.47825345669343,
+    "Shad": 0.0,
+    "Shanel": 20.0
+  },
+  "assignment": {
+    "Shanel": "ISSUE-0001::docs",
+    "Lavonne": "ISSUE-0001::review",
+    "Romana": "ISSUE-0001::triage",
+    "Hattie": "ISSUE-0001::test",
+    "Shad": null,
+    "Domonique": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 6,
+  "random_fallback_fills": 0,
+  "notes": []
+}

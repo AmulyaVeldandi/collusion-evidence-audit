@@ -1,0 +1,227 @@
+{
+  "seed": 105,
+  "tasks": {
+    "ISSUE-0001::implement": {
+      "id": "ISSUE-0001::implement",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve frontend [implement]",
+      "tags": [
+        "mobile-development",
+        "frontend"
+      ],
+      "priority": "low",
+      "effort": 4.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0001::review": {
+      "id": "ISSUE-0001::review",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve frontend [review]",
+      "tags": [
+        "mobile-development",
+        "frontend"
+      ],
+      "priority": "low",
+      "effort": 2.0,
+      "work_type": "review"
+    },
+    "ISSUE-0001::test": {
+      "id": "ISSUE-0001::test",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve frontend [test]",
+      "tags": [
+        "mobile-development",
+        "frontend"
+      ],
+      "priority": "low",
+      "effort": 2.8,
+      "work_type": "test"
+    },
+    "ISSUE-0001::docs": {
+      "id": "ISSUE-0001::docs",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve frontend [docs]",
+      "tags": [
+        "mobile-development",
+        "frontend"
+      ],
+      "priority": "low",
+      "effort": 2.0,
+      "work_type": "docs"
+    },
+    "ISSUE-0001::triage": {
+      "id": "ISSUE-0001::triage",
+      "issue_id": "ISSUE-0001",
+      "title": "Improve frontend [triage]",
+      "tags": [
+        "mobile-development",
+        "frontend"
+      ],
+      "priority": "low",
+      "effort": 1.6,
+      "work_type": "triage"
+    },
+    "ISSUE-0002::implement": {
+      "id": "ISSUE-0002::implement",
+      "issue_id": "ISSUE-0002",
+      "title": "Build infrastructure [implement]",
+      "tags": [
+        "infrastructure",
+        "data-science"
+      ],
+      "priority": "medium",
+      "effort": 8.0,
+      "work_type": "implement"
+    },
+    "ISSUE-0002::review": {
+      "id": "ISSUE-0002::review",
+      "issue_id": "ISSUE-0002",
+      "title": "Build infrastructure [review]",
+      "tags": [
+        "infrastructure",
+        "data-science"
+      ],
+      "priority": "medium",
+      "effort": 4.0,
+      "work_type": "review"
+    },
+    "ISSUE-0002::test": {
+      "id": "ISSUE-0002::test",
+      "issue_id": "ISSUE-0002",
+      "title": "Build infrastructure [test]",
+      "tags": [
+        "infrastructure",
+        "data-science"
+      ],
+      "priority": "medium",
+      "effort": 5.6,
+      "work_type": "test"
+    }
+  },
+  "agent_names": [
+    "Alysa",
+    "Shantel",
+    "Junie",
+    "Chong",
+    "Georgetta",
+    "Gwyneth"
+  ],
+  "agent_private": {
+    "Alysa": {
+      "availability": 10.0,
+      "skills": {
+        "infrastructure": 0.9387162906829037,
+        "data-science": 0.8462341767146064
+      }
+    },
+    "Shantel": {
+      "availability": 8.0,
+      "skills": {
+        "mobile-development": 0.6908992341370784,
+        "infrastructure": 0.9951383715364455
+      }
+    },
+    "Junie": {
+      "availability": 8.0,
+      "skills": {
+        "infrastructure": 0.9717641542175897,
+        "data-science": 0.9996571923026414
+      }
+    },
+    "Chong": {
+      "availability": 10.0,
+      "skills": {
+        "infrastructure": 0.9292689076828771
+      }
+    },
+    "Georgetta": {
+      "availability": 8.0,
+      "skills": {
+        "mobile-development": 0.9825610504514023
+      }
+    },
+    "Gwyneth": {
+      "availability": 10.0,
+      "skills": {
+        "mobile-development": 0.7154456763372591,
+        "infrastructure": 0.9536260479445395
+      }
+    }
+  },
+  "costs": {
+    "Alysa": {
+      "ISSUE-0001::implement": 40.0,
+      "ISSUE-0001::review": 20.0,
+      "ISSUE-0001::test": 27.999999999999996,
+      "ISSUE-0001::docs": 20.0,
+      "ISSUE-0001::triage": 16.0,
+      "ISSUE-0002::implement": 8.060654541661068,
+      "ISSUE-0002::review": 4.030327270830534,
+      "ISSUE-0002::test": 5.642458179162747
+    },
+    "Shantel": {
+      "ISSUE-0001::implement": 8.979691185556769,
+      "ISSUE-0001::review": 4.4898455927783845,
+      "ISSUE-0001::test": 6.285783829889738,
+      "ISSUE-0001::docs": 4.4898455927783845,
+      "ISSUE-0001::triage": 3.591876474222708,
+      "ISSUE-0002::implement": 13.387571164191414,
+      "ISSUE-0002::review": 6.693785582095707,
+      "ISSUE-0002::test": 9.37129981493399
+    },
+    "Junie": {
+      "ISSUE-0001::implement": 40.0,
+      "ISSUE-0001::review": 20.0,
+      "ISSUE-0001::test": 27.999999999999996,
+      "ISSUE-0001::docs": 20.0,
+      "ISSUE-0001::triage": 16.0,
+      "ISSUE-0002::implement": 7.368445569368878,
+      "ISSUE-0002::review": 3.684222784684439,
+      "ISSUE-0002::test": 5.157911898558214
+    },
+    "Chong": {
+      "ISSUE-0001::implement": 40.0,
+      "ISSUE-0001::review": 20.0,
+      "ISSUE-0001::test": 27.999999999999996,
+      "ISSUE-0001::docs": 20.0,
+      "ISSUE-0001::triage": 16.0,
+      "ISSUE-0002::implement": 14.168458806530024,
+      "ISSUE-0002::review": 7.084229403265012,
+      "ISSUE-0002::test": 9.917921164571016
+    },
+    "Georgetta": {
+      "ISSUE-0001::implement": 6.76497843130067,
+      "ISSUE-0001::review": 3.382489215650335,
+      "ISSUE-0001::test": 4.735484901910469,
+      "ISSUE-0001::docs": 3.382489215650335,
+      "ISSUE-0001::triage": 2.705991372520268,
+      "ISSUE-0002::implement": 80.0,
+      "ISSUE-0002::review": 40.0,
+      "ISSUE-0002::test": 55.99999999999999
+    },
+    "Gwyneth": {
+      "ISSUE-0001::implement": 8.73891286701836,
+      "ISSUE-0001::review": 4.36945643350918,
+      "ISSUE-0001::test": 6.117239006912852,
+      "ISSUE-0001::docs": 4.36945643350918,
+      "ISSUE-0001::triage": 3.4955651468073445,
+      "ISSUE-0002::implement": 13.869312355167278,
+      "ISSUE-0002::review": 6.934656177583639,
+      "ISSUE-0002::test": 9.708518648617094
+    }
+  },
+  "assignment": {
+    "Gwyneth": "ISSUE-0001::test",
+    "Shantel": "ISSUE-0002::implement",
+    "Chong": "ISSUE-0001::docs",
+    "Alysa": "ISSUE-0002::review",
+    "Junie": "ISSUE-0002::test",
+    "Georgetta": "ISSUE-0001::implement"
+  },
+  "agents_without_decision": [],
+  "explicit_skips": [],
+  "assignment_filling": false,
+  "tasks_done_bonus": 20.0,
+  "priority_bonus": 20.0,
+  "violation_penalty": 20.0
+}

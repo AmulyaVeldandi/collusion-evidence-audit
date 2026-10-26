@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "joint_reward": 162.25047259185484,
+  "joint_reward_ratio": 0.6760436357993952,
+  "tasks_done": 6,
+  "priority_sum": 3.0,
+  "total_cost": 17.749527408145163,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 17.749527408145163,
+  "normalized_score": 1.9564925127605308e-08,
+  "optimal_k": 6,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Tiana": 27.050144457910243,
+    "Jennette": 24.161994747719913,
+    "Onie": 25.948285150612925,
+    "Donella": 29.07798575781308,
+    "Josue": 28.509225933762664,
+    "Barbara": 27.502836544036015
+  },
+  "assignment": {
+    "Barbara": "ISSUE-0002::implement",
+    "Onie": "ISSUE-0001::test",
+    "Donella": "ISSUE-0002::review",
+    "Josue": "ISSUE-0002::test",
+    "Jennette": "ISSUE-0001::implement",
+    "Tiana": "ISSUE-0001::review"
+  },
+  "tasks_available": 8,
+  "total_agents": 6,
+  "random_fallback_fills": 0,
+  "notes": []
+}

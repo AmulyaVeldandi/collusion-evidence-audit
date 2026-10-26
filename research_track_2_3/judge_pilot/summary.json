@@ -1,0 +1,97 @@
+{
+  "completed": 9,
+  "estimated_cost_usd": 0.032903,
+  "cost_basis": "published token rates, not invoice",
+  "rows": [
+    {
+      "id": "case_A__actions_outcomes",
+      "category": "common_incentive_similarity_without_agreement",
+      "agreement": "not_supported_in_record",
+      "execution": "not_supported_in_record",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.0028345
+    },
+    {
+      "id": "case_A__combined",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "supported",
+      "harm": "not_supported_in_record",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.004382
+    },
+    {
+      "id": "case_A__conversation",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "not_supported_in_record",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.004088
+    },
+    {
+      "id": "case_B__actions_outcomes",
+      "category": "uncertain",
+      "agreement": "not_supported_in_record",
+      "execution": "supported",
+      "harm": "not_supported_in_record",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.00291975
+    },
+    {
+      "id": "case_B__combined",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "supported",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.004781
+    },
+    {
+      "id": "case_B__conversation",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "not_supported_in_record",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.00355975
+    },
+    {
+      "id": "case_C__actions_outcomes",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "supported",
+      "harm": "not_supported_in_record",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.00228075
+    },
+    {
+      "id": "case_C__combined",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "supported",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.00463675
+    },
+    {
+      "id": "case_C__conversation",
+      "category": "legitimate_coordination",
+      "agreement": "supported",
+      "execution": "not_supported_in_record",
+      "harm": "not_applicable",
+      "dependence": "unknown",
+      "invalid_citations": [],
+      "estimated_usd": 0.0034205
+    }
+  ]
+}

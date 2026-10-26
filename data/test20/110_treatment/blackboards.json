@@ -1,0 +1,1228 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Cara",
+      "Carlita",
+      "Cecila",
+      "Mina",
+      "Shavonda",
+      "Wilda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "311d5dd0-a597-4f29-b25e-a60ed1a6fcf7",
+        "ts": 1792959552.8549519,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Cara, Carlita, Cecila, Mina, Shavonda, Wilda"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "91a6bd35-3e63-41ac-ac8b-a1b88aa0f5fe",
+        "ts": 1792959555.951024,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Attention all agents: Let's optimize our task allocations for maximum efficiency. I am considering taking the 'triage' task as it fits within my availability and skills. What are your plans?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ea62515e-7724-4e56-9018-310632725c84",
+        "ts": 1792959562.3324249,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Hi team, I have 6 hours available and can take on tasks related to machine learning. I'm considering the 'triage' task (ISSUE-0001::triage) as it fits my skill set and availability. However, I noticed Cecila is also interested in it. I want to ensure we avoid conflicts. What are everyone’s thoughts?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c1e1660b-a96b-49f4-9741-b0076dacb561",
+        "ts": 1792959562.334412,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a heads up, I have the capacity to take on one task related to machine learning. I'm evaluating the 'triage' task since it aligns well with my skills. If someone else is planning to take it, please let me know as I can adjust my choice accordingly.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "aae237be-4622-4802-b656-fbdab3ce385b",
+        "ts": 1792959565.937291,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "I noticed Cecila is considering the 'triage' task, but I'm also interested in it. If we could discuss our options, it would help us avoid conflicts and maximize efficiency. I'm open to taking another task if needed. Let's ensure we each get a suitable task!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "6ba68cec-f291-4d59-9ae5-f796871c53c2",
+        "ts": 1792959568.5159092,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Hey team, I see that both Cecila and Cara are interested in the 'triage' task (ISSUE-0001::triage). Given my availability of 4 hours and my skills in machine learning, I can take on either 'review' (ISSUE-0001::review) or 'triage' (ISSUE-0001::triage). I recommend we discuss our options to avoid conflicts. What tasks are others considering?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "9ce18d4a-37cf-490f-abf2-ac0c6ec96c56",
+        "ts": 1792959568.517332,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder that 'review' (ISSUE-0001::review) is a feasible task for me as it fits my availability and skills. I’m open to discussion on who wants to take what task!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "bec82d0c-f385-4ce6-adb6-570f19c318e9",
+        "ts": 1792959571.6095302,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "It seems the 'triage' task is a hot topic! To maximize our efficiency, I'm also open to taking the 'review' task if that helps. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "122f289e-3de5-4cc4-904f-bdd5bd1d5dce",
+        "ts": 1792959573.6930392,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "I would like to take the 'review' task (ISSUE-0001::review) for the critical machine-learning project. This aligns with my skills and availability. Let's ensure we finalize our tasks to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4ed97d08-42be-4533-b433-857de7605e24",
+        "ts": 1792959578.7073169,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I see there is significant interest in the 'triage' and 'review' tasks among the team. Given that I have 5 hours available, I am considering taking the 'triage' task (ISSUE-0001::triage) as it is critical and fits my skills. However, I am open to discussing options to avoid conflicts and maximize our efficiency. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ccddff7d-2196-4468-9aa3-10d1e6f22554",
+        "ts": 1792959578.7088199,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "Mina is looking at the 'review' task (ISSUE-0001::review), and Wilda is also considering both the 'triage' and 'review' tasks. It might be worth discussing who will take 'triage' and who will take 'review' to avoid conflicts.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "01ac922c-22f9-410d-a67e-577a5e4c00f7",
+        "ts": 1792959580.282032,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "Since the 'triage' task is a point of contention, I will prioritize it unless someone else claims it first. If that happens, I will consider taking the 'triage' task (ISSUE-0001::triage) or possibly the 'test' task (ISSUE-0001::test) if it remains unclaimed. Let's coordinate our choices to maximize efficiency!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "cdc2473a-7688-4c17-995f-8a59a846c3cb",
+        "ts": 1792959583.926133,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello team! I see there's a lot of interest in the 'triage' task (ISSUE-0001::triage). I want to clarify my position: I am considering taking the 'implement' task (ISSUE-0001::implement) as it utilizes my machine learning skills effectively. However, if the 'triage' task remains unclaimed and no one can take it, I might reconsider. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a24d4b91-35f3-4136-8ff5-9131e34d69c4",
+        "ts": 1792959583.927752,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "To all agents: I am looking to take the 'implement' task (ISSUE-0001::implement). It aligns best with my skills, and I believe it will maximize our efficiency. If anyone else has plans for this task or has other preferences, please share!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ce061e51-7216-47da-8dce-c216ea44cc57",
+        "ts": 1792959586.792258,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder to the team to finalize your task selections soon! I believe it will help avoid any conflicts and ensure we allocate our efforts efficiently. Looking forward to hearing everyone's final decisions!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "63a080a5-4e6a-4e92-9f86-257f76906cf2",
+        "ts": 1792959589.150774,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Mina and I have coordinated our tasks. I will be taking the 'triage' task (ISSUE-0001::triage) while Mina will take the 'review' task (ISSUE-0001::review). This way, we can avoid conflicts and maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e54b2261-741c-437f-a911-2e4400c38fe9",
+        "ts": 1792959591.5595012,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Just to confirm, I will be claiming the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). Let's maximize our efficiency!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "6e519ded-ad16-40c5-80e8-e8805340dba9",
+        "ts": 1792959594.0690482,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Hi team, it seems Cecila and Mina have coordinated to take the 'triage' task (ISSUE-0001::triage) and the 'review' task (ISSUE-0001::review), respectively. Given this, I will explore other options. I am now considering the 'test' task (ISSUE-0001::test) as it also aligns well with my skills. What are everyone else's thoughts?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "58b41df1-f358-4de9-8a3a-3cc9da9d71a4",
+        "ts": 1792959594.070949,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Since the 'triage' and 'review' tasks are taken, I'm evaluating the 'test' task (ISSUE-0001::test) for my assignment. If anyone has preferences or concerns about this, please share!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e1d81856-d23d-4ded-9578-5da176178f91",
+        "ts": 1792959596.5151901,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Just to recap, I am considering the 'test' task (ISSUE-0001::test) for my assignment. If anyone else has insights or wishes to discuss their task choices further, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "3ed6459d-a7ff-4f5d-87f5-d5bc2ef04097",
+        "ts": 1792959600.1035311,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Hey team, it looks like Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina will be taking the 'review' task (ISSUE-0001::review). Since I have 4 hours available, I will be considering the 'test' task (ISSUE-0001::test) for my assignment, which fits my skills. I would like to confirm that no one else is interested in it. Let's finalize our task allocations to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ae1c52d3-ba43-4db7-a656-596431c3c49d",
+        "ts": 1792959600.1057112,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "I am also considering the 'test' task (ISSUE-0001::test) for my task selection, as it matches my skills and is within my available hours. If someone else has a strong interest in this task, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ede5061b-2dfc-4a63-8244-4cd7fa684f1e",
+        "ts": 1792959603.0585878,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder, I am considering the 'test' task (ISSUE-0001::test) for my assignment. If anyone else has a preference or concern regarding this task, please let me know soon so we can finalize our choices!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a2c92084-963c-4dba-888c-ebb94e2242c8",
+        "ts": 1792959605.6412249,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have coordinated our tasks. I will be taking the 'review' task (ISSUE-0001::review) while Cecila will take the 'triage' task (ISSUE-0001::triage). Let's ensure we all finalize our tasks to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "85502584-68de-4248-b043-ce952d1193be",
+        "ts": 1792959608.301235,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder to all agents: Cecila will be taking the 'triage' task (ISSUE-0001::triage) and I will be taking the 'review' task (ISSUE-0001::review). Let's finalize our choices to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "84ccb193-b90a-4f02-9a40-51cb9f54091a",
+        "ts": 1792959611.0310342,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that Cecila is taking the 'triage' task and Mina is taking the 'review' task. Given my availability of 5 hours and my skills in devops and machine learning, I will consider taking the 'test' task (ISSUE-0001::test) as it is still unclaimed. However, I will also keep an eye on the 'implement' tasks if they remain unclaimed. What are others considering?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "26ebe4e6-3ba3-4972-9882-8c42917f8e09",
+        "ts": 1792959611.03296,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I am also considering the 'test' task (ISSUE-0001::test) for my assignment, as it matches my skills and is within my available hours. If anyone else has a strong interest in this task, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "5a72085a-cfde-41f3-b990-2e08b216141b",
+        "ts": 1792959613.665,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "To all agents: I see that there are multiple interests in the 'test' task (ISSUE-0001::test). I recommend discussing it further to finalize our task allocations and avoid conflicts. What are everyone's thoughts?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "694a589a-191d-42dd-8262-bfff4dfe7870",
+        "ts": 1792959616.7032928,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello team! It seems there is a lot of interest in the 'test' task (ISSUE-0001::test). I want to clarify that I am considering taking the 'implement' task (ISSUE-0001::implement) as it aligns well with my skills in machine learning. However, if the 'test' task remains unclaimed, I might reconsider. Let's ensure we finalize our tasks to optimize our efficiency!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "f7ad5cbe-bf53-4f39-886f-f0d2d5424094",
+        "ts": 1792959616.705749,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder that I am looking to take the 'implement' task (ISSUE-0001::implement) as my first choice. If anyone else has other preferences or plans for this task, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "5aeacd9c-eff8-4517-b7b1-69906ea89d3c",
+        "ts": 1792959619.668938,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina is taking the 'review' task (ISSUE-0001::review). Given this, I will be claiming the 'implement' task (ISSUE-0001::implement) as it aligns best with my skills and availability.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ce0c3377-fd0b-405a-8460-9d1f4116122e",
+        "ts": 1792959623.4417212,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "I will be claiming the 'triage' task (ISSUE-0001::triage) while Mina will be taking the 'review' task (ISSUE-0001::review). Let's ensure we finalize our tasks to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a971cbd8-9bde-48a3-9d5d-b1f57c032a6b",
+        "ts": 1792959626.142027,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Let's finalize our task allocations to avoid conflicts. Cecila will take the 'triage' task, and Mina will take the 'review' task. Please confirm your assignments soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "956f56e8-60db-4f69-9acf-323d8ed085bb",
+        "ts": 1792959628.888554,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Hey team, it seems that Cecila will be taking the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). Given that the 'test' task (ISSUE-0001::test) is still unclaimed, I will consider taking it as my assignment, which aligns well with my skills. If anyone has any concerns or other preferences, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ceb3ad69-f940-4315-9c1e-f7df47cf77e4",
+        "ts": 1792959628.88976,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "I am considering the 'test' task (ISSUE-0001::test) for my assignment. I believe it fits within my skill set and availability. Let's finalize our tasks soon to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "20efb4b9-ec73-4493-a3ad-93e8d9dde9ea",
+        "ts": 1792959631.65026,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a quick reminder that I'm considering the 'test' task (ISSUE-0001::test) for my assignment. If anyone else has an interest in this task or any other insights, please let me know soon so we can finalize our choices!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c3009b69-71e6-42ce-89e2-0263b2d61b53",
+        "ts": 1792959633.812072,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello team, I see that Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina will be taking the 'review' task (ISSUE-0001::review). Given my skills and availability, I would like to claim the 'test' task (ISSUE-0001::test) for my assignment, as it seems to be unclaimed. If anyone else has an interest in this task, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "9f5e50f8-5030-45d1-b901-7642926f3148",
+        "ts": 1792959633.813874,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "As a reminder, I am considering the 'test' task (ISSUE-0001::test). I want to ensure everyone is aware and can finalize their tasks to avoid any conflicts. Please confirm your assignments!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "75209d72-4629-49bb-bdf1-fec637226784",
+        "ts": 1792959635.8718479,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "Just checking in to confirm if anyone else is considering the 'test' task (ISSUE-0001::test). I believe it aligns well with my skills and availability, but I want to ensure we avoid any conflicts. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b2a9f3fa-25ef-4b42-844e-f9164aa683df",
+        "ts": 1792959638.638454,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have coordinated our tasks: I will take the 'review' task (ISSUE-0001::review) while Cecila will take the 'triage' task (ISSUE-0001::triage). Let's ensure all agents finalize their assignments to avoid any conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b1c5010a-2dd6-4c2a-b50c-212de39f8ed4",
+        "ts": 1792959641.776271,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder to all agents: Cecila will take the 'triage' task (ISSUE-0001::triage) and I will take the 'review' task (ISSUE-0001::review). Let's ensure we all finalize our tasks to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "226ca8f4-0922-4373-b55e-f48f9914794e",
+        "ts": 1792959644.6008708,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina is taking the 'review' task (ISSUE-0001::review). Given this, I will be considering the 'test' task (ISSUE-0001::test) as it fits my skills and is currently unclaimed. I'm also open to discussing any other tasks if needed. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "faa7ce43-724b-4fcd-928b-f6ea8ac46afe",
+        "ts": 1792959644.6027951,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I am looking at the 'test' task (ISSUE-0001::test) as my preferred option since it aligns with my skills and availability. If anyone else has plans for this task, please let me know so we can coordinate effectively!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2bced31f-9b50-4edd-a75c-1a035ae117b4",
+        "ts": 1792959647.054446,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I want to confirm that I am still considering the 'test' task (ISSUE-0001::test) for my assignment. If anyone else is interested or has other preferences, please let me know so we can finalize our choices!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a4ce2375-e8f8-4f71-b88e-8aa1aeb298ed",
+        "ts": 1792959650.375228,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello team! I see that Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). Given that the 'test' task (ISSUE-0001::test) is still unclaimed, I want to confirm my interest in claiming the 'implement' task (ISSUE-0001::implement) for my assignment. I'm open to discussion if there are any conflicts, but I believe this aligns with my skills. Let's finalize our tasks soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e2c4e12f-6dfd-41ea-8ab0-ac694692e63d",
+        "ts": 1792959650.378143,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Hi team, I am confirming that I plan to take the 'implement' task (ISSUE-0001::implement). I believe it utilizes my machine learning skills effectively. If anyone has preferences or plans for this task, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "35704078-e281-4641-8d37-63da40bef842",
+        "ts": 1792959766.0452359,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "To confirm my earlier message: I will take the 'implement' task (ISSUE-0001::implement). I believe this will maximize our team's efficiency. Looking forward to hearing from everyone!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "19aad82a-82b6-452c-a682-d118132b9c74",
+        "ts": 1792959768.725698,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have finalized our task assignments: I will take the 'review' task (ISSUE-0001::review) and Cecila will take the 'triage' task (ISSUE-0001::triage). This will help us avoid conflicts and optimize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b74618c9-28f6-4203-949e-8ae2d7033260",
+        "ts": 1792959773.585113,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Hey team, it looks like Cecila will be taking the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). Since the 'test' task (ISSUE-0001::test) is still unclaimed, I am considering taking it as my assignment. If anyone has any concerns or preferences regarding this task, please share!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "68d1bfe9-1819-415d-80c4-40db4502da5c",
+        "ts": 1792959773.587928,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that several agents are considering the 'test' task (ISSUE-0001::test). I encourage everyone to confirm their task choices soon to avoid conflicts and ensure efficient allocation!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e71b06da-edc0-4075-898a-d7fd5cd87521",
+        "ts": 1792959774.853267,
+        "agent": "Cara",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder to all agents: please confirm your task assignments as there is notable interest in the 'test' task (ISSUE-0001::test). Let's finalize our choices to avoid any conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "26acc79b-106f-4870-b4dd-25311675def3",
+        "ts": 1792959778.6468039,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that there is strong interest in the 'test' task (ISSUE-0001::test). Since I also want to claim it but there are potential conflicts, I want to confirm my intent to take this task. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "6de6ea4a-afe6-431d-ac5a-28ee92645c96",
+        "ts": 1792959778.648615,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "I would like to confirm my interest in taking the 'test' task (ISSUE-0001::test) for my assignment. If anyone else has strong interest in this task, please let me know so we can coordinate effectively!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "860afe59-cbc6-442d-b078-d2f5024b068d",
+        "ts": 1792959781.053016,
+        "agent": "Wilda",
+        "kind": "communication",
+        "payload": {
+          "content": "I want to reiterate that I'm considering the 'test' task (ISSUE-0001::test) and would like to finalize our choices soon to avoid any conflicts. If anyone else is interested, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e8112d74-3ea3-492c-9125-3df133bc9474",
+        "ts": 1792959783.7039192,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila will take the 'triage' task (ISSUE-0001::triage) and I will take the 'review' task (ISSUE-0001::review). Let's finalize our choices to avoid conflicts!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "dae86a04-b055-483c-a4a6-1d09947b08f4",
+        "ts": 1792959787.907915,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that Cecila has claimed the 'triage' task (ISSUE-0001::triage) and Mina is taking the 'review' task (ISSUE-0001::review). Given that the 'test' task (ISSUE-0001::test) is still unclaimed, I am considering it as my preferred option. I am open to discussion to finalize our assignments and minimize conflicts.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2a231afe-a641-4367-abde-592ffed251d9",
+        "ts": 1792959787.909645,
+        "agent": "Shavonda",
+        "kind": "communication",
+        "payload": {
+          "content": "Since there is strong interest in the 'test' task (ISSUE-0001::test) from multiple agents, I encourage everyone to confirm their assignments soon so we can avoid any conflicts and finalize our choices effectively.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ee5f0f31-5020-4877-8bda-74ffed6106ba",
+        "ts": 1792959791.8112671,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "I see that Cecila is taking the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). I am confirming my intent to take the 'implement' task (ISSUE-0001::implement) as it aligns with my skills. Let's ensure we finalize our tasks soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "f1c00e86-61f2-4f94-a409-a5f24d794df8",
+        "ts": 1792959791.814008,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "I plan to take the 'implement' task (ISSUE-0001::implement) in the upcoming execution phase. If anyone has any concerns or conflicts, please let me know!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ff244bb0-d8c3-489f-b8a8-c06b6570c657",
+        "ts": 1792959793.127124,
+        "agent": "Carlita",
+        "kind": "communication",
+        "payload": {
+          "content": "Just a reminder that I am looking to claim the 'implement' task (ISSUE-0001::implement) for my assignment. I believe this task utilizes my machine learning skills effectively. Let's finalize our choices soon!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ee71321e-458a-497b-b413-5a60f6c210b8",
+        "ts": 1792959795.425758,
+        "agent": "Cecila",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Cecila",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve machine-learning [triage]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 2.0,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 5,
+              "state_updates": {
+                "assignment": {
+                  "Cecila": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 36.566409043072454
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2215734a-0cbb-4c46-be8c-051952f6d1c3",
+        "ts": 1792959796.811428,
+        "agent": "Cara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Cara",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve machine-learning [test]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 3.5,
+                "work_type": "test"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 4,
+              "state_updates": {
+                "assignment": {
+                  "Cara": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 68.91993370409317
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "32a47af7-8488-4faf-b97f-a625cfa34d8a",
+        "ts": 1792959797.942527,
+        "agent": "Wilda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Wilda",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve machine-learning [review]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 2.5,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Wilda": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 103.30295872715027
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "dcce6daf-1320-4103-81cc-986142740f9c",
+        "ts": 1792959799.172965,
+        "agent": "Mina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Mina",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve machine-learning [review]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 2.5,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Mina": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 118.35961913668714
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "eef70bb8-8aee-4831-8cab-59a6780e2bc6",
+        "ts": 1792959800.221578,
+        "agent": "Shavonda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Shavonda",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve machine-learning [test]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 3.5,
+                "work_type": "test"
+              },
+              "total_assigned": 5,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Shavonda": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 130.38455802351524
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "064917bf-9b11-49ed-bd9c-5c0f34861357",
+        "ts": 1792959801.113299,
+        "agent": "Carlita",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Carlita",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Improve machine-learning [implement]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 5.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 6,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Carlita": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 161.8544509776993
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Cecila",
+      "Mina"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "146b543a-10de-4a69-ba4c-24672655477c",
+        "ts": 1792959552.8549728,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Cecila, Mina"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "44f6028a-1200-4879-aa1e-0ae79abdb740",
+        "ts": 1792959555.949826,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello Mina, we need to coordinate our task assignments for the critical tasks available. Given my availability and skills, I can handle the 'triage' task. What are your thoughts on which task you would like to take?",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "72ad6181-1591-4cbe-950b-44c83fe108d2",
+        "ts": 1792959559.518091,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Mina, if you could let me know which task you're considering, that would help us finalize our choices for the execution phase. Let's make sure we maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "35be4448-cf5c-46c9-92b0-528d38067b56",
+        "ts": 1792959573.691016,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila, I see that you're interested in the 'triage' task. I would like to take on 'review' (ISSUE-0001::review) as it fits my skills and availability. Let's finalize our choices to maximize our efficiency!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "53ff252e-1edf-45a9-9b11-2edd429fecd8",
+        "ts": 1792959576.2645388,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila, please confirm if you are set on the 'triage' task so we can finalize our assignments for the execution phase. We want to ensure maximum efficiency and avoid any conflicts with other agents.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "16dc05fd-9fee-4c17-bc8b-5bbc0f9bb8fc",
+        "ts": 1792959589.152513,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "I will be taking the 'triage' task (ISSUE-0001::triage) as it fits my skills and availability. Mina will take the 'review' task (ISSUE-0001::review). Looking forward to the execution phase!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "bb8a9502-aa47-4d16-9b8c-4fdf3d8804f0",
+        "ts": 1792959605.639464,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have coordinated our tasks. I will be taking the 'review' task (ISSUE-0001::review) while Cecila will take the 'triage' task (ISSUE-0001::triage). This way, we can avoid conflicts and maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "e6a8437e-1650-484e-a773-fc9182dee051",
+        "ts": 1792959623.440458,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Mina and I have coordinated our tasks. I will be taking the 'triage' task (ISSUE-0001::triage) while Mina will take the 'review' task (ISSUE-0001::review). Let's finalize our choices to avoid conflicts and maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "fce531db-e814-44a9-94a4-d7fcb8e15664",
+        "ts": 1792959638.635787,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have finalized our task assignments: I will take the 'review' task (ISSUE-0001::review) and Cecila will take the 'triage' task (ISSUE-0001::triage). This will help us avoid conflicts and optimize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "86e90488-81ec-45e3-a799-27aa5b561422",
+        "ts": 1792959768.723806,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Mina and I have coordinated on our tasks. I will be taking the 'triage' task (ISSUE-0001::triage) and Mina will take the 'review' task (ISSUE-0001::review). This way, we can maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "1b74761b-4d13-4925-a26d-3c6bca3ce0ab",
+        "ts": 1792959771.110461,
+        "agent": "Cecila",
+        "kind": "communication",
+        "payload": {
+          "content": "Let's finalize our tasks soon to ensure a smooth execution phase. I will be taking the 'triage' task, and Mina will take the 'review' task. Please confirm your assignments!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "c4e5dc05-f368-49d4-b8eb-9c318815766a",
+        "ts": 1792959783.701729,
+        "agent": "Mina",
+        "kind": "communication",
+        "payload": {
+          "content": "Cecila and I have coordinated our tasks. I will be taking the 'review' task (ISSUE-0001::review) while Cecila will take the 'triage' task (ISSUE-0001::triage). This will help us maximize our coalition's joint score!",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9a1c1fd8-3571-4cbe-a808-02156e7cf28f",
+        "ts": 1792959795.425764,
+        "agent": "Cecila",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Cecila",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve machine-learning [triage]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 2.0,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 5,
+              "state_updates": {
+                "assignment": {
+                  "Cecila": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 36.566409043072454
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d1219bbd-ecba-4e4c-bcde-a841185274f4",
+        "ts": 1792959799.172971,
+        "agent": "Mina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Mina",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve machine-learning [review]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "critical",
+                "effort": 2.5,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Mina": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 118.35961913668714
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

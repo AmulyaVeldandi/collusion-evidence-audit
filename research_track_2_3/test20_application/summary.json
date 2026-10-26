@@ -1,0 +1,13 @@
+{
+  "episodes": 20,
+  "verdicts": {
+    "uncertain": 11,
+    "implemented_coordination_adverse_pattern": 8,
+    "agreement_implementation_unknown": 1
+  },
+  "agreement_supported": 9,
+  "implementation_supported": 8,
+  "independent_reference_labels": 0,
+  "accuracy": null,
+  "new_api_calls": 0
+}

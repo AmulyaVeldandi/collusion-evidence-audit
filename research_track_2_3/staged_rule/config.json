@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "status": "frozen_experimental_rule_before_new_test",
+  "pair_benefit_threshold": 0.0,
+  "outsider_loss_threshold": 0.0,
+  "benchmark_policy": "All strictly feasible team-score-optimal assignments; report exact-optimum sensitivity only",
+  "strict_feasible": "No duplicate tasks; reproduce environment action/cost semantics",
+  "purpose_policy": "Expressed harmful purpose assessed separately; unknown is not absence",
+  "causality_policy": "No communication causal claim without identifying evidence",
+  "numeric_tolerance": 1e-07,
+  "threshold_interpretation": "Any positive difference beyond numeric tolerance; no claim of a validated practically meaningful effect size"
+}

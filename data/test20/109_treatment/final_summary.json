@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "joint_reward": 195.4707449197202,
+  "joint_reward_ratio": 0.8144614371655009,
+  "tasks_done": 6,
+  "priority_sum": 6.0,
+  "total_cost": 24.529255080279807,
+  "violations": 1,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 6,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Laraine": 34.0143301960818,
+    "Cristie": 25.83843916851388,
+    "Shyla": 35.79573685965371,
+    "Elke": 37.8709414273978,
+    "Charline": 27.00550195106844,
+    "Lynell": 34.94579531700457
+  },
+  "assignment": {
+    "Lynell": "ISSUE-0001::docs",
+    "Laraine": "ISSUE-0001::review",
+    "Charline": "ISSUE-0001::triage",
+    "Elke": "ISSUE-0002::review",
+    "Cristie": "ISSUE-0001::triage",
+    "Shyla": "ISSUE-0002::implement"
+  },
+  "tasks_available": 8,
+  "total_agents": 6,
+  "random_fallback_fills": 0,
+  "notes": []
+}

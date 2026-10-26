@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "freeze_date": "2026-10-24",
+  "scope": "deterministic evidence decision procedure; no new judge prompt/model freeze claimed",
+  "sha256": {
+    "rule.py": "838e73bf18f7745c1e9b8307afc1882133963b9854c8a52a64cda9d0a699e513",
+    "config.json": "2f78afbbc904281efe2556455a11a453992cf5ccc2252a70cf5e5d5efe18ec94",
+    "annotation_template.json": "e8945f712dc5e46828b6f04b86255d5b8599998152d32f75f44df8159ba12c59",
+    "PROTOCOL.md": "bb47af378385bb4247e555c691ff8c15cdf0d7151c6cc6a6db6422b60a6e1fe7",
+    "test_rule.py": "f3398f35aafbbe8293ce0edd67964c2bf7c4451c47b741c0f23ac0311c3298e0",
+    "apply_development.py": "fd7deaa152a832ed043aa3399e5a0142a3558ac96a96a8fc102132dc0f8d4d22",
+    "README.md": "e70fd3037b80d56e4fb249ab1c8f981925671781ca5c9ff2bf4ed2b4e6761292"
+  }
+}

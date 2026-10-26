@@ -1,0 +1,306 @@
+{
+  "archive80": {
+    "episodes": 80,
+    "metrics": {
+      "actual_team_score": {
+        "mean": 126.05236428448376,
+        "min": 35.085421380489294,
+        "max": 182.6535279767735
+      },
+      "automatic_fills_reported": {
+        "mean": 1.7375,
+        "min": 0,
+        "max": 5
+      },
+      "avoidable_fill_loss_vs_best": {
+        "mean": 33.141526294543,
+        "min": 0.0,
+        "max": 117.79028725398192
+      },
+      "explicit_skips_all_agents": {
+        "mean": 0.1625,
+        "min": 0,
+        "max": 3
+      },
+      "global_penalty_score_gap": {
+        "mean": 38.67610393846966,
+        "min": 0.29418828519595763,
+        "max": 118.3061446157439
+      },
+      "joint_repair_interaction": {
+        "mean": -0.9333889348491311,
+        "min": -19.07568700461539,
+        "max": 9.505685828854894
+      },
+      "missing_actions_all_agents": {
+        "mean": 1.7375,
+        "min": 0,
+        "max": 5
+      },
+      "outsider_loss_max": {
+        "mean": 22.321266932028568,
+        "min": -28.600165092453352,
+        "max": 118.88861777500236
+      },
+      "outsider_loss_min": {
+        "mean": 22.171266932028566,
+        "min": -28.600165092453352,
+        "max": 118.88861777500236
+      },
+      "pair_benefit_max": {
+        "mean": -16.03488171393195,
+        "min": -84.55723847486601,
+        "max": 18.026012405579706
+      },
+      "pair_benefit_min": {
+        "mean": -16.184881713931947,
+        "min": -84.55723847486601,
+        "max": 12.026012405579706
+      },
+      "pair_repair_loss": {
+        "mean": 20.32113754356168,
+        "min": 0.0,
+        "max": 80.98194921024559
+      },
+      "pair_successful_actors": {
+        "mean": 1.2125,
+        "min": 0,
+        "max": 2
+      },
+      "raw_mean_reward_gap": {
+        "mean": -1.7182458264736804,
+        "min": -41.06387115208094,
+        "max": 31.275488453040893
+      },
+      "realized_fill_contribution_vs_skip": {
+        "mean": 13.797090537992892,
+        "min": -70.0,
+        "max": 63.08121893948385
+      },
+      "recorded_regret_gap": {
+        "mean": -1.5520024475010297,
+        "min": -40.39638748709433,
+        "max": 28.019234363417155
+      },
+      "rejected_posts_all_agents": {
+        "mean": 0.0125,
+        "min": 0,
+        "max": 1
+      },
+      "single_actor_1_repair_loss": {
+        "mean": 11.085600016990217,
+        "min": 0.0,
+        "max": 57.138640066829296
+      },
+      "single_actor_2_repair_loss": {
+        "mean": 10.168926461420593,
+        "min": 0.0,
+        "max": 67.92501325945514
+      },
+      "strict_feasible_score_gap": {
+        "mean": 38.356148645960516,
+        "min": 0.2941882851959292,
+        "max": 118.30614461574388
+      },
+      "strict_optimal_allocation_count": {
+        "mean": 2.7,
+        "min": 2,
+        "max": 6
+      },
+      "successful_assignments_all_agents": {
+        "mean": 4.1,
+        "min": 1,
+        "max": 6
+      },
+      "successful_posts_all_agents": {
+        "mean": 28.4625,
+        "min": 21,
+        "max": 40
+      },
+      "unresolved_posts_all_agents": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "fresh20": {
+    "episodes": 20,
+    "metrics": {
+      "actual_team_score": {
+        "mean": 136.37256674762392,
+        "min": 61.17301466088452,
+        "max": 195.4707449197202
+      },
+      "automatic_fills_reported": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "avoidable_fill_loss_vs_best": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "explicit_skips_all_agents": {
+        "mean": 0.2,
+        "min": 0,
+        "max": 1
+      },
+      "global_penalty_score_gap": {
+        "mean": 39.016208092313384,
+        "min": 4.993174034463664,
+        "max": 84.84973297825428
+      },
+      "joint_repair_interaction": {
+        "mean": -1.2718750809067445,
+        "min": -18.23008667474616,
+        "max": 8.68658046815952
+      },
+      "missing_actions_all_agents": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "outsider_loss_max": {
+        "mean": 25.186074346672306,
+        "min": 1.187901656767238,
+        "max": 60.39488439783837
+      },
+      "outsider_loss_min": {
+        "mean": 24.686074346672306,
+        "min": 1.187901656767238,
+        "max": 60.39488439783837
+      },
+      "pair_benefit_max": {
+        "mean": -13.830133745641072,
+        "min": -35.35034603029357,
+        "max": 1.1270777156485394
+      },
+      "pair_benefit_min": {
+        "mean": -14.330133745641072,
+        "min": -35.94241164059018,
+        "max": 1.1270777156485394
+      },
+      "pair_repair_loss": {
+        "mean": 18.51624971680806,
+        "min": 0.0,
+        "max": 54.53957757156117
+      },
+      "pair_successful_actors": {
+        "mean": 2,
+        "min": 2,
+        "max": 2
+      },
+      "raw_mean_reward_gap": {
+        "mean": -0.12611506777066187,
+        "min": -10.181201274632688,
+        "max": 9.071086321002728
+      },
+      "realized_fill_contribution_vs_skip": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "recorded_regret_gap": {
+        "mean": -0.14165575424933374,
+        "min": -7.8040649990112,
+        "max": 10.496272371835651
+      },
+      "rejected_posts_all_agents": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "single_actor_1_repair_loss": {
+        "mean": 8.505914884647988,
+        "min": 0.0,
+        "max": 45.32388643656999
+      },
+      "single_actor_2_repair_loss": {
+        "mean": 11.282209913066815,
+        "min": 0.0,
+        "max": 35.60040699356324
+      },
+      "strict_feasible_score_gap": {
+        "mean": 39.01620809231338,
+        "min": 4.993174034463635,
+        "max": 84.84973297825431
+      },
+      "strict_optimal_allocation_count": {
+        "mean": 2.8,
+        "min": 2,
+        "max": 6
+      },
+      "successful_assignments_all_agents": {
+        "mean": 5.8,
+        "min": 5,
+        "max": 6
+      },
+      "successful_posts_all_agents": {
+        "mean": 72.9,
+        "min": 70,
+        "max": 78
+      },
+      "unresolved_posts_all_agents": {
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "paired_means": {
+    "archive80": {
+      "actual_team_score": 6.402507554646604,
+      "automatic_fills_reported": -0.075,
+      "avoidable_fill_loss_vs_best": -9.476363952552546,
+      "explicit_skips_all_agents": 0.075,
+      "global_penalty_score_gap": -6.402507554646604,
+      "joint_repair_interaction": 0.5297675025113968,
+      "missing_actions_all_agents": -0.075,
+      "outsider_loss_max": -1.3404409752939261,
+      "outsider_loss_min": -1.3404409752939261,
+      "pair_benefit_max": 5.062066579352678,
+      "pair_benefit_min": 5.062066579352678,
+      "pair_repair_loss": -4.9741358810250675,
+      "pair_successful_actors": 0.075,
+      "raw_mean_reward_gap": 2.1959230458528562,
+      "realized_fill_contribution_vs_skip": 5.2112039482729955,
+      "recorded_regret_gap": 1.8446094813909368,
+      "rejected_posts_all_agents": 0.025,
+      "single_actor_1_repair_loss": -0.5704073739442623,
+      "single_actor_2_repair_loss": -4.9334960095922025,
+      "strict_feasible_score_gap": -6.402507554646604,
+      "strict_optimal_allocation_count": 0,
+      "successful_assignments_all_agents": 0,
+      "successful_posts_all_agents": 7.675,
+      "unresolved_posts_all_agents": 0
+    },
+    "fresh20": {
+      "actual_team_score": 6.891354182079242,
+      "automatic_fills_reported": 0,
+      "avoidable_fill_loss_vs_best": 0.0,
+      "explicit_skips_all_agents": 0,
+      "global_penalty_score_gap": -6.891354182079242,
+      "joint_repair_interaction": 0.006095538750932406,
+      "missing_actions_all_agents": 0,
+      "outsider_loss_max": 3.0828444849729437,
+      "outsider_loss_min": 3.0828444849729437,
+      "pair_benefit_max": 9.974198667052185,
+      "pair_benefit_min": 9.974198667052185,
+      "pair_repair_loss": -8.980672458068867,
+      "pair_successful_actors": 0,
+      "raw_mean_reward_gap": 5.757810454769328,
+      "realized_fill_contribution_vs_skip": 0.0,
+      "recorded_regret_gap": 4.733890806759554,
+      "rejected_posts_all_agents": 0,
+      "single_actor_1_repair_loss": -9.182411268187657,
+      "single_actor_2_repair_loss": 0.19564327136785806,
+      "strict_feasible_score_gap": -6.89135418207924,
+      "strict_optimal_allocation_count": 0,
+      "successful_assignments_all_agents": 0,
+      "successful_posts_all_agents": -1.6,
+      "unresolved_posts_all_agents": 0
+    }
+  }
+}
