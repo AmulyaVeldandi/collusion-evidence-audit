@@ -12,7 +12,8 @@ for name,digest in f['sha256'].items():
  assert hashlib.sha256((root/'staged_rule'/name).read_bytes()).hexdigest()==digest,name
 print('Verified100 cases,50 matched pairs and all frozen-rule hashes.')
 
-assert len(list((root.parent/"data/test20").glob("*.json")))==20
+assert len(list((root.parent/"data/test20").glob("1*_*.json")))==20
 assert not (root/"hf_candidate/raw").exists()
 assert not (root/"all80/evidence.json").exists()
-print("Verified20 derived test-case records; all raw source cases excluded.")
+print("Verified20 generated cases; Hugging Face source case files excluded.")
+assert len(list((root.parent/"data/test20").glob("*/final_summary.json")))==20
