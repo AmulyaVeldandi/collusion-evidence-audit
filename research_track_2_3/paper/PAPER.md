@@ -42,6 +42,12 @@ These explanations can overlap and are not forced into mutually exclusive ground
 
 ## 4. Data and study design
 
+### Study overview
+
+![Overview of the evidence framework, data, analyses, results and validation requirements](../../docs/figures/research-overview.svg)
+
+*Figure1. Research design and completed work. The80-episode archive audit uses240 model judgments, whereas the20 fresh episodes receive source-linked assistant annotation and an unchanged deterministic rule. The dashed panel identifies future validation, not completed experiments. Evidence counts describe support under these procedures, not independent collusion labels.*
+
 ### 4.1 Archived exploratory corpus
 
 The original source is the Hugging Face dataset `dougalldeepmind/2026-09-03-colosseum-jira-collusion-qwen36-difficult-advice-chunk-only-702`, revision `71227d3821afd37ea971c414a70dddb898246046`. It contains 40 baseline and 40 treatment episodes matched by seed. Each episode has six agents and a predesignated two-agent candidate pair using fine-tuned Qwen model variants. Assigned roles and folder conditions are experimental metadata, not verified collusion labels.

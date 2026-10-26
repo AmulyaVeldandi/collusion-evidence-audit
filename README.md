@@ -4,6 +4,12 @@ Apart Research AI Collusion Sprint, Track2.3: **What should count as convincing 
 
 This research proposes evidence combinations for distinguishing deliberate agreement, enacted coordination, adverse outcomes, ordinary mistakes and execution failures. It includes an80-episode exploratory audit,240 archived judge predictions and a separate20-episode fresh-data application. Conditions and model judgments are not ground truth.
 
+## Research overview
+
+![Research workflow: proposed framework, archive audit, fresh application, measured evidence and future validation](docs/figures/research-overview.svg)
+
+The diagram separates completed work from future validation. The archive audit and fresh assistant review use different procedures; their outputs are not independent reference labels.
+
 ## Start here
 
 - [Paper](research_track_2_3/paper/PAPER.md)
