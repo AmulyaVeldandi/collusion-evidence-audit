@@ -44,7 +44,7 @@ These explanations can overlap and are not forced into mutually exclusive ground
 
 ## 4. Data and study design
 
-![Overview of the evidence framework, data, analyses, results and validation requirements](../../docs/figures/research-overview.svg)
+![Overview of the evidence framework, data, analyses, results and validation requirements](../../docs/figures/research-evidence-summary.png)
 
 *Figure 1. Study design and principal findings. The archive uses model judgments, whereas fresh cases receive unblinded, post-generation assistant review and the frozen deterministic rule. “Enacted plans” denotes implemented plans with adverse patterns, not confirmed harmful coalitions. The accounting identity uses a shared strict-optimal benchmark. Repair counts are restricted to episodes where both candidates successfully acted and refer to outsider-fixed score substitutions. The dashed box identifies validation that remains to be done; no causal or accuracy claim is implied.*
 
