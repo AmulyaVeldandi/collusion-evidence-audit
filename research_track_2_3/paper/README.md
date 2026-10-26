@@ -1,7 +1,9 @@
-# Paper package
+# Paper and PDF
 
-PAPER.md is the current coherent draft: research question → related work → nine-explanation framework → study design → operational measures → results → interpretation and future validation → limitations → conclusion.
+PAPER.md and SUBMISSION.md contain the complete paper reorganized to follow the supplied submission template. Beyond_Collusive_Talk.pdf is the matching formatted export:8 main pages,1 reference page and3 appendix pages.
 
-It covers the80-episode exploratory judge audit and20 fresh episodes, with consolidated100-case scores and50 paired contrasts. The numerical results and frozen rule are unchanged by the editorial revision. PAPER_before_flow_revision.md preserves the prior assembled draft for comparison.
+Author:Amulya Veldandi. No affiliation is listed.
 
-The local repository copy is collusion_hackathon/research/track23/PAPER.md. No independent harmful-collusion accuracy is claimed; source-linked annotations are not reference truth. No publishing or submission has occurred.
+All substantive content from the prior full paper is retained. The nine-explanation framework, full measure definitions and reproduction notes are moved intact into AppendicesA–C; the main text retains all original numerical results and case reviews. submission_coverage.json records the75-block preservation check and source commit. Section/table references are renumbered, and the token-limit spacing is corrected. An LLM usage statement is included.
+
+Independent harmful-collusion reference labels and causal communication effects remain unavailable. The PDF is a research draft; no external submission has occurred.

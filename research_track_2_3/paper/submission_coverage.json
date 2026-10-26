@@ -1,0 +1,14 @@
+{
+  "source_sha256": "fce2525d0d85ddff071022b310e5b701c65afea762e4d0ff70ed8348217adfa9",
+  "target_sha256": "51db4a7dc57defcd2ec9a1d4bd7e2e67233e141b0087898335678164cd60730d",
+  "substantive_source_blocks_checked": 75,
+  "missing_blocks": [],
+  "main_pages": 8,
+  "references_pages": 1,
+  "appendix_pages": 3,
+  "author": "Amulya Veldandi",
+  "affiliation": null,
+  "preservation": "All substantive prose and original seven tables retained; framework and full measure definitions moved intact to appendices; reproduction notes moved intact to Appendix C. Table/section numbering updated, table lead-in reworded, 6,000 spacing corrected.",
+  "source_commit": "70caf7cbb811d5116aa0d4c2ce7b60abbe4bba7a",
+  "target": "PAPER.md and SUBMISSION.md"
+}
