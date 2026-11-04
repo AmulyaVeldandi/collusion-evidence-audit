@@ -8,7 +8,7 @@ This research proposes evidence combinations for distinguishing deliberate agree
 
 ![Research workflow: proposed framework, archive audit, fresh application, measured evidence and future validation](docs/figures/research-evidence-summary.png)
 
-[Editable SVG](docs/figures/research-evidence-summary.svg) · [Detailed workflow](docs/figures/research-overview-detailed.svg) is available separately. The diagram separates completed work from future validation. The archive audit and fresh assistant review use different procedures; their outputs are not independent reference labels.
+[Detailed workflow](docs/figures/research-overview-detailed.svg) is available separately. The diagram separates completed work from future validation. The archive audit and fresh assistant review use different procedures; their outputs are not independent reference labels.
 
 ## Start here
 
@@ -19,7 +19,6 @@ This research proposes evidence combinations for distinguishing deliberate agree
 - [Fresh20 rule comparison](research_track_2_3/test20_application/RULE_COMPARISON.md)
 - [Cross-field references](research_track_2_3/docs/cross_field_references.md)
 
-The fresh review supports9 bilateral agreements and8 implemented plans with adverse patterns. Harm attribution remains unresolved. Independent references and controlled communication effects are unavailable; no detection accuracy is claimed. The deterministic rule was frozen, but post-generation semantic annotation was not independently frozen.
 
 ## Offline verification
 
